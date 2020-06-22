@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Latency
+permalink: /glossary/latency.html
 sidebar:
   nav: glossary
 ---

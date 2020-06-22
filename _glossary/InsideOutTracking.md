@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Inside-Out Tracking
+permalink: /glossary/InsideOutTracking.html
 sidebar:
   nav: glossary
 ---

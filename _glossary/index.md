@@ -6,4 +6,6 @@ permalink: /glossary/index.html
 articles:
   data_source: site.glossary
   type: brief
+sidebar:
+  nav: glossary
 ---

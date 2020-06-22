@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Room-Scale
+permalink: /glossary/roomScale.html
 sidebar:
   nav: glossary
 ---

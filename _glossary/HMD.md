@@ -1,6 +1,7 @@
 ---
 layout: article
 title: HMD - Head Mounted Display
+permalink: /glossary/HMD.html
 sidebar:
   nav: glossary
 ---

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Tomato Presence
+permalink: /glossary/TomatoPresence.html
 sidebar:
   nav: glossary
 ---

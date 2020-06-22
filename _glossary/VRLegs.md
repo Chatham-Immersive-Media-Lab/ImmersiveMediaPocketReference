@@ -1,6 +1,7 @@
 ---
 layout: article
 title: VR Legs
+permalink: /glossary/VRLegs.html
 sidebar:
   nav: glossary
 ---
