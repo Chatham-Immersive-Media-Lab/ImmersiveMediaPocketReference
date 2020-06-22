@@ -59,3 +59,21 @@ glossary:
         url: /glossary/InsideOutTracking.html
       - title: Outside-In Tracking
         url: /glossary/OutsideInTracking.html
+
+guides:
+  - title: Materials
+    children:
+    - title: Image To Materials Overview
+      url: /guides/imageToMaterialOverview.md
+    - title: Lighting In Unity Overview
+      url: /guides/lightingInUnity.md
+  - title: Audio
+    children:
+      - title: Recording A Voice-Over in Audacity
+      - url: /guides/recordingVoiceOverAudacity.md
+  - title: Unity
+    children:
+      - title: Zero To Quest
+        url: /guides/zeroToQuest.md
+      - title: Lighting In Unity Overview
+        url: /guides/lightingInUnity.md

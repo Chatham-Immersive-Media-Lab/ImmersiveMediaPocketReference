@@ -5,7 +5,6 @@ permalink: /glossary/6DOF.html
 sidebar:
   nav: glossary
 ---
-# 6DOF
 Pronounced "six-dof".
 Acronym for Six Degrees Of Freedom.
 Refers to Headset/tracking technology that tracks both rotation: roll, pitch, yaw; and tracks position in 3 dimensions (x,y,z).
