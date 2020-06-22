@@ -20,23 +20,38 @@ resources:
         url:    /resources/assets.html
 
 glossary:
-  - title: Locomotion
-    url: /glossary/locomotion.html
+  - title: Terminology
     children:
+    - title: 3DOF
+      url: /glossary/3DOF.html
+    - title: 6DOF
+      url: /glossary/6DOF.html
+    - title: Analog Vs. Digital Input
+      url: /glossary/AnalogVsDigital.html
+    - title: Drift
+      url: /glossary/drift.html
+    - title: HMD - Head Mounted Display
+      url: /glossary/HMD.html
+    - title: Latency
+      url: /glossary/latency.html
+    - title: Room-Scale
+      url: /glossary/roomScale.html
+    - title: Standing Only
+      url: /glossary/StandingOnlyVR.html
+    - title: Toilet Ready
+      url: /glossary/toiletReady.html
+    - title: TomatoPresence
+      url: /glossary/TomatoPresence.html
+    - title: VR Legs
+      url: /glossary/VRLegs.html
+  - title: Locomotion
+    children:
+      - title: Locomotion
+        url: /glossary/locomotion.html
       - title: Teleportation
         url: /glossary/teleportation.html
       - title: Snap Turn
         url: /glossary/SnapTurn.html
-  - title: 3DOF
-    url: /glossary/3DOF.html
-  - title: 6DOF
-    url: /glossary/6DOF.html
-  - title: Analog Vs. Digital Input
-    url: /glossary/AnalogVsDigital.html
-  - title: Drift
-    url: /glossary/drift.html
-  - title: HMD - Head M1ounted Display
-    url: /glossary/HMD.html
   - title: Tracking
     url: /glossary/tracking.html
     children:
@@ -44,15 +59,3 @@ glossary:
         url: /glossary/InsideOutTracking.html
       - title: Outside-In Tracking
         url: /glossary/OutsideInTracking.html
-  - title: Latency
-    url: /glossary/latency.html
-  - title: Room-Scale
-    url: /glossary/roomScale.html
-  - title: Standing Only
-    url: /glossary/StandingOnlyVR.html
-  - title: Toilet Ready
-    url: /glossary/toiletReady.html
-  - title: TomatoPresence
-    url: /glossary/TomatoPresence.html
-  - title: VR Legs
-    url: /glossary/VRLegs.html
