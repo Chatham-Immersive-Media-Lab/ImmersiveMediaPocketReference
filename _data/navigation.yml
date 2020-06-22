@@ -82,8 +82,7 @@ guides:
       - title: Lighting In Unity Overview
         url: /guides/lightingInUnityOverview.html
 
-
- notes:
+notes:
   - title: Perceiving Space
     children:
       - title: Acoustics
