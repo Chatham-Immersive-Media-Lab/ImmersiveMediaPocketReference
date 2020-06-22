@@ -8,8 +8,6 @@ sidebar:
   nav: resources
 ---
 
-# Assets
-
 A non-exhaustive list of resources for finding assets to use in VR/AR projects.
 
 I cannot personally vouch for resources with an * next to them.

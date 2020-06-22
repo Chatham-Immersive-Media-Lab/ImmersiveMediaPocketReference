@@ -1,6 +1,6 @@
 header:
   - title:      Resources
-    url:        /resources/software.html
+    url:        /resources/index.html
   - titles:
       en:       About
       zh:       关于
@@ -10,6 +10,7 @@ header:
 
 resources:
   - title: Resources
+    url: /resources/index.html
     children:
       - title:  Software
         url:    /resources/software.html
