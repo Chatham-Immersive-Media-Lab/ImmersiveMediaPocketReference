@@ -1,8 +1,10 @@
 header:
   - title:      Glossary
     url:        /glossary/index.html
-  - title:      guides
+  - title:      Guides
     url:        /guides/index.html
+  - title:      Notes
+    url:        /notes/index.html
   - title:      Resources
     url:        /resources/index.html
   - titles:
