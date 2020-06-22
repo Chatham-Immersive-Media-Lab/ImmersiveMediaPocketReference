@@ -73,10 +73,27 @@ guides:
     children:
       - title: Recording A Voice-Over in Audacity
       - url: /guides/recordingAVoiceOver.html
-aside:
   - title: Unity
     children:
       - title: Zero To Quest
         url: /guides/zeroToQuest.html
       - title: Lighting In Unity Overview
         url: /guides/lightingInUnityOverview.html
+
+
+ notes:
+  - title: Perceiving Space
+    children:
+      - title: Acoustics
+        url: /notes/perceivingSpaceAcoustics.html
+      - title: Vision
+        url: /notes/perceivingSpaceVision.html
+  - title: VR Design
+    children:
+      - title: Teleportation Notes
+        url: /notes/teleportationNotes.html
+  - title: Concepts
+    children:
+      - title: Perspective Distortion and Projections
+        url: /notes/perspectiveAndProjections.html
+    
