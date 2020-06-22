@@ -9,7 +9,8 @@ header:
     url:        /about.html 
 
 resources:
-  - title:      Resources
+  - title: Resources
+    children:
       - title:  Software
         url:    /resources/software.html
       - title:  Assets
