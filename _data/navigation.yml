@@ -7,11 +7,7 @@ header:
     url:        /notes/index.html
   - title:      Resources
     url:        /resources/index.html
-  - titles:
-      en:       About
-      zh:       关于
-      zh-Hans:  关于
-      zh-Hant:  關於
+  - title:      About
     url:        /about.html 
 
 resources:
@@ -32,8 +28,6 @@ glossary:
       url: /glossary/6DOF.html
     - title: Analog Vs. Digital Input
       url: /glossary/AnalogVsDigital.html
-    - title: Drift
-      url: /glossary/drift.html
     - title: HMD - Head Mounted Display
       url: /glossary/HMD.html
     - title: Latency
@@ -63,6 +57,8 @@ glossary:
         url: /glossary/InsideOutTracking.html
       - title: Outside-In Tracking
         url: /glossary/OutsideInTracking.html
+      - title: Drift
+        url: /glossary/drift.html
 
 guides:
   - title: Materials
@@ -97,4 +93,3 @@ notes:
     children:
       - title: Perspective Distortion and Projections
         url: /notes/perspectiveAndProjections.html
-    
