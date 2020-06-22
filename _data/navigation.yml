@@ -35,7 +35,7 @@ glossary:
     url: /glossary/AnalogVsDigital.html
   - title: Drift
     url: /glossary/drift.html
-  - title: HMD - Head Mounted Display
+  - title: HMD - Head M1ounted Display
     url: /glossary/HMD.html
   - title: Tracking
     url: /glossary/tracking.html
@@ -45,14 +45,14 @@ glossary:
       - title: Outside-In Tracking
         url: /glossary/OutsideInTracking.html
   - title: Latency
-      url: /glossary/latency.html
+    url: /glossary/latency.html
   - title: Room-Scale
-      url: /glossary/roomScale.html
+    url: /glossary/roomScale.html
   - title: Standing Only
-      url: /glossary/StandingOnlyVR.html
+    url: /glossary/StandingOnlyVR.html
   - title: Toilet Ready
-      url: /glossary/toiletReady.html
+    url: /glossary/toiletReady.html
   - title: TomatoPresence
-      url: /glossary/TomatoPresence.html
+    url: /glossary/TomatoPresence.html
   - title: VR Legs
-      url: /glossary/VRLegs.html
+    url: /glossary/VRLegs.html
