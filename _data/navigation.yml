@@ -1,4 +1,6 @@
 header:
+  - title:      Glossary
+    url:        /glossary/index.html
   - title:      Resources
     url:        /resources/index.html
   - titles:
@@ -16,3 +18,13 @@ resources:
         url:    /resources/software.html
       - title:  Assets
         url:    /resources/assets.html
+
+glossary:
+  - title: Locomotion
+    url: /glossary/locomotion.html
+    children:
+      - title: Teleportation
+        url: /glossary/teleportation.html
+      - title: Snap Turn
+        url: /glossary/SnapTurn.html
+      

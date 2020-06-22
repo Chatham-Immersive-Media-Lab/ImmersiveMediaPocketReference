@@ -3,7 +3,7 @@ layout: article
 title: Resources
 permalink: /resources/index.html
 aside:
-  toc: true
+  toc: false
 sidebar:
   nav: resources
 ---

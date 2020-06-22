@@ -31,6 +31,11 @@ lang: en # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
+## Collections
+collections:
+  glossary:
+    output: true
+
 ## => Author and Social
 ##############################
 author:
