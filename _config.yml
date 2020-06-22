@@ -35,6 +35,10 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 collections:
   glossary:
     output: true
+  notes:
+    output: true
+  guides:
+    output: true
 
 ## => Author and Social
 ##############################
