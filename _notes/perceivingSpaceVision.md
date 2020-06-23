@@ -63,23 +63,29 @@ While one might think that the virtual camera achieves linear perspective for us
 *University of Michigan Law Library. An image with strong linear perspective, there's a clear vanishing point in the center of the image.*
 
 ![Image of Yale library with spherical projection](images/yale.jpg)
-*This image of [Yale's Library](https://upload.wikimedia.org/wikipedia/commons/3/36/20170420_Beinecke_Rare_Book_Library_Interior_Yale_University_New_Haven_Connecticut.jpg) was shot with non-linear projection. Straight lines are not straight, and parallel lines are not parallel nor do they converge to a single point. This image uses [stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection).  
+*This image of [Yale's Library](https://upload.wikimedia.org/wikipedia/commons/3/36/20170420_Beinecke_Rare_Book_Library_Interior_Yale_University_New_Haven_Connecticut.jpg) was shot with non-linear projection. Straight lines are not straight, and parallel lines are not parallel nor do they converge to a single point. This image uses [stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection).*
 
 
-The below image is off-putting because it showcases two perspectives - one on the projected screen, the other in the art gallery - that are incompatible. As a photography, that's why I like this iamge - it *doesn't* work. It's clear why, but is still uncomfortable to look at. The on-screen perspective is *close* to the real camera perspective, so our brains make an attempt at fitting it all together. We want to bend the world and make it work. It doesn't.
+The below image is off-putting because it showcases two perspectives - one on the projected screen, the other in the art gallery - that are incompatible. As a photographer, that's why I like this image - it *doesn't* work. It's clear why, but is still uncomfortable to look at. The on-screen perspective is *close* to the real camera perspective, so our brains make an attempt at fitting it all together. We want to bend the world and make it work. It doesn't.
 
 ![Image of man sitting in front of a projector](images/dualperspective.jpg)
+*If the projected screen was a TV instead - one with solid borders that demonstrate the 2D surface the perspective image is on - the image would be less uncomfortable to look at. Borders and frames can provide a reference for establishing planes and perspective.*
 
 This image is an equirectangular projection of a 360 image captured from the center of a radially symmetric room. Everything is the same distance away, so it's all the same size. 
 ![Radial Perspective](images/radialProjection.jpg)
 
 
 ### Perspective Distortion
-Perspective Distortion is linear perspective. Things get bigger as they get closer to the viewer. Things that are further away are smaller. That's all perspective distortion is.
+"Perspective Distortion" is ... perspective. Things get bigger as they get closer to the viewer. Things that are further away are smaller. That's all perspective distortion is.
 
-I am separating it from the above section on linear perspective because I want to emphasize the difference in creating vanishing points and a grounded spacial environment with repetative objects, and making objects appear closer or further by making them bigger or smaller.
+I am separating it from the above section on linear perspective because I want to emphasize a difference:
 
-When things that are different distances appear to interact with each other, our sense of perspective can be completley broken. This is a "forced perspective" illusion, and a rather fun photography trick to try. You've seen the "pushing the leaning tower of pisa" photos.
+1) Creating vanishing points and a grounded spacial environment with repetitive objects
+2) Making objects appear closer or further by making them bigger or smaller
+
+The latter we might discuss as taking advantage of "perspective distortion".
+
+When things that are different distances appear to interact with each other, our sense of perspective can be completely broken. The following is a "forced perspective" illusion, and a rather fun photography trick to try. You've likely already seen the "pushing the leaning tower of pisa" photos.
 
 ![An image of a man eating a boat](images/forcedPerspective.png)
 *Duane Stormy - Forced Perspective*
@@ -92,9 +98,9 @@ Head Movement
 *Dust motes*
 
 ### Object Motion
-Consider parallax to be the motion of the camera, or consistently moving things, that provide a sense of scale. **Object Motion** refers to the motion of objects. Big things move and accelerate slowly. Small and lightweight things dart around. A big door lumbers open and a floppy wooden saloon door ... flops.
+Consider parallax to be the motion of the camera/head, or consistently moving things that provide a sense of scale. **Object Motion** refers to the motion of objects. Big things move and accelerate slowly. Small and lightweight things dart around. A big door lumbers open and a floppy wooden saloon door flies open and swings/oscillates a bit before settling back into it's closed position.
 
-This is an important design consideration when having objects accuratley *feel* like their size, particularly things one interacts with, but is also important in environmental design, and establishing space. In a game engine, this tends to be the tedious task of making sure the object properties are set up well in a physics engine, or animated appropriately.
+This is an important design consideration when having objects accurately *feel* like their size. It's particularly important with things one interacts with, but is also important in environmental design and establishing space. In a game engine, this tends to be the tedious task of making sure the object properties are set up well in a physics engine, or animated appropriately.
 
 *See the tilt-shift videography example below.*
 
@@ -109,7 +115,7 @@ Consider the opening shot of Star Wars for an incredibly effective example.
 
 ![Screencapture from opening shot of Star Wars](images/starWars.jpg)
 
-*The shot creates our expectations of scale - first with the small ship, and then with the point of the larger one moving past. It quickly subverts that expectation: the ship just keeps going! It takes up more and more of the frame. The viewer is forced to continuously readjust their mental model of how big this ship probably is, which makes it feel all the larger. It's a [great shot](https://youtu.be/yHfLyMAHrQE?t=119).*
+*The shot creates an expectation of scale - first with the small ship, and then with the point of the larger one moving past. It quickly subverts that expectation: the large ship just keeps going! It takes up more and more of the frame. The viewer is forced to continuously readjust their mental model of how big this ship probably is, which makes it feel all the larger. It's a [great shot](https://youtu.be/yHfLyMAHrQE?t=119).*
 
 ### Familiar Size/Relative Size (Reference)
 ![An image of Wilt Chamberlain and Andre the Giant standing next to Arnold Schwarzenegger](images/humanReference.png)
@@ -120,9 +126,9 @@ That's Arnold Schwarzenegger, who is around 6 feet tall. In this image he is fla
 
 [source](https://twitter.com/schwarzenegger/status/984478810400686080).
 
-In my opinion, not giving the user relative/familiar size comparisons is one of most consistent design failings of many VR experiences. We enter fantasy worlds with fantasy environments to do fantasy things, and it just doesn't quite *feel grounded*. The only relative scale we have is our own height, which stops being effective once things are a certain distance or offset about the environment. Give me some things with known sizes in them, at various places in the world. Not 1-cubic-meter wooden crates that are rampant in video games but nobody has ever actually seen in real life. How big is a barrel? I've got no clue, they don't help me understand scale at all. Maybe toss some cars in the background? Or potted plants! Plants are great. I'm a big fan of indoor potted plants.
+In my opinion, not giving the user relative/familiar size comparisons is one of most consistent design shortfalls of many VR experiences. We enter fantasy worlds with fantasy environments to do fantasy things, and it just doesn't quite feel *grounded*. The only relative scale we have is our own height, which stops being effective once things are a certain distance or offset about the environment. Give me some things with known sizes in them, at various places in the world. Not 1-cubic-meter wooden crates that are rampant in video games but nobody has ever actually seen in real life. How big is a barrel? I've got no clue, they don't help me understand scale at all. Maybe toss some cars in the background? Or potted plants! Plants are great. I'm a big fan of indoor potted plants.
 
-This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of a building in Pittsburgh. There is absolutely nothing to disconnect the foreground - greg - with the background except for a small amount of blur and sharpness. Greg looks like he is the size of these buildings! Luckily our sense of relative sizes - and that small amount of blur - keep us from falling to a "forced perspective" illusion.
+This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of a building in Pittsburgh. There is almost nothing to disconnect the foreground - greg - with the background. Just a small amount of blur and texture/detail level. Greg looks like he is the size of these buildings! Luckily our sense of relative sizes - and that small amount of blur - keep us from falling to a "forced perspective" illusion.
 ![An image of a man on a rooftop, overlooking Pittsburgh](images/giantGreg.png)
 
 ### Occlusion/Interpolation
@@ -132,16 +138,16 @@ This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of
 ### Textures and Detail Level
 
 ### Size of Similar Objects
-The same cue as perspective distortion/linear perspective and familiar size above. I want to draw emphasis on objects that may not be of a *known* size, but of some size that we establish *within the environment*, and by repeating this same object around the environment, it's size becomes an indicator of depth.
+The same cue as perspective distortion/linear perspective and familiar size, taken together. I want to draw emphasis on objects that may not be of a *known* size, but of some size that we establish *within the environment*. By repeating this same object around the environment, size becomes an indicator of depth.
 
-The human figures in this image very clearly solidify it's perspective and scale.
+The human figures in this image clearly ground it's perspective and scale.
 ![Image of Denver](images/denver.jpg)
 
 Notable examples: people, windows, streetlamps, vehicles, and so on.
 
-Consider the tables/table lamps in the above image of the Library
+Consider the tables/table lamps in the above image of the Law Library
 
-The below image doesn't have very many depth cues. The metal bridge is ambiguously sized and out of frame, the road doesn't quite have all the markings of a normal street (of known size) (it's clearly smaller, it's a bike path), and turns and twists obscure any clear vanishing points. The strongest indicator of depth is the fencing, and the repetition of the fencing gives us a sense for how far away the red building is. We can more accurately estimate the distance to the building than estimate the width of the bike path.
+The below image doesn't have very many depth cues. The metal bridge is ambiguously sized and out of frame, the road doesn't quite have all the markings of a normal street (of known size) (it's clearly smaller, it's a bike path), and turns and twists obscure any clear vanishing points. The strongest indicator of depth is the fencing, (ambiguous within a range) and the repetition of the fencing gives us a sense for how far away the red building is. We can more accurately estimate the distance to the building than estimate the width of the bike path.
 
 ![Image of Railings](images/railings.jpg)
 
@@ -161,7 +167,9 @@ The 3D models used are [Venus de Milo](https://sketchfab.com/3d-models/venus-de-
 
 ### Out-Of-Focus Blur
 
-Our eyes focus on light (*ahem:* accomodation) in a way ery similar to
+Our eyes focus on light (*ahem:* accomodation) in a way similar to camera lenses. Out-of-focus blur isn't just an indicator driven through familiarity with images captured via optics, but also our own vision. 
+
+*See the tilt-shift example below at just how dramatically our sense of depth can be thrown off by an image with "incorrect" out-of-focus blur.*
 
 ![An image that uses focus to imply depth](images/focusLightOcclusion.png)
 *The deep background is extremely out of focus, the tree is less out of focus while Hannah here is sharp and in focus. Occlusion also clues us in.*
@@ -170,16 +178,16 @@ Consider this screen capture from *The Untouchables*.
 
 ![The Untouchables](images/splitDipoter.jpg)
 
-It was shot using a "[split diopter](https://vashivisuals.com/splitting-focus-de-palmas-blow/)". The effect is usually achieved by cutting a lens in half, perhaps combining it with another half-lens of a different focal length. This image feels fake and wrong to us (the effect is more subtle inside of the context, montage, and pacing of film, a screencapture rips it out and lays it bare). It is inconsistent with our understanding of out-of-focus blur, which we expect to be consistent.
-
-*See the example highlighting tilt-shift photography below.*
+It was shot using a "[split diopter](https://vashivisuals.com/splitting-focus-de-palmas-blow/)". The effect is usually achieved by cutting a lens in half, perhaps combining it with another half-lens of a different focal length. This image feels fake and wrong to us (the effect is more subtle inside of the context, montage, and pacing of film, this screencapture rips it out and lays it bare). It is inconsistent with our understanding of out-of-focus blur, and thus feels fake, wrong, uncanny - and we are unable to understand the environment.
 
 ### Elevation From The Horizon
 This depth cue is a generalization of perspective. As things get further away, they tend to approach the horizon (as they approach a vanishing point). When observing objects that are not too different in height or size, distance from the horizon is an effective cue. 
 
 ### Atmospheric Gradation
 Atmospheric Gradation, sometimes called "atmospheric perspective", 
-Air is clear, but not that clear. There's fog, [haze](https://www.spc.noaa.gov/publications/corfidi/hazeintro.html), dust, smog, clouds, and more obscuring our ability too see long distances clearly. As an object gets further away, it's percieved contrast decreases, and it can shift towards blue, or other colors, depending. 
+Air is clear, but not perfectly clear. There's fog, [haze](https://www.spc.noaa.gov/publications/corfidi/hazeintro.html), dust, smog, clouds, optical distortions like [mirage](https://en.wikipedia.org/wiki/Mirage), and more obscuring our ability too see long distances clearly.
+
+As an object gets further away, this object's perceived contrast decreases, and it can visually shift towards blue or other colors. 
 
 ![Peaks of the Premiere Range, Cariboo Mountains](images/cariboo.JPG)
 *[Peaks of the Premier Range](https://en.wikipedia.org/wiki/Cariboo_Mountains#/media/File:Cariboo_Peaks.JPG), Cariboo Mountains, from the summit of Mica Mountain, British Columbia. By Rufus Hawthorne.* Note the distant mountains lose contrast in addition to the blue tint.
@@ -190,17 +198,20 @@ Fog provides the same visual effect at a much more extreme scale.
 *Image shot on a foggy morning in East Liberty. Occlusion and dramatic atmospheric gradation provide depth cues.*
 
 ![Firewatch](images/firewatch1.jpg)
-*Promotional image for the game Firewatch uses implied atmospheric gradation, as well as occlusion and horizon elevation, to present a vast vista out of a handful of solid colors*
-.
+*Promotional image for the game Firewatch uses implied atmospheric gradation, as well as occlusion and horizon elevation, to present a vast vista out of a handful of solid colors.*
+
 
 This is an image I captured on a different foggy morning in Pittsburgh. Again emphasizing that fog isn't just a tint, but also a reduction in contrast.
-![Foggy Bridge](images/fog3.png).
+
+![Foggy Bridge](images/fog3.png)
+
+In VR design, a little bit of fog can go a long way.
 
 ## Examples Of Presenting Depth
 
 ### River City Girls
 
-Beat-Em up games often mix perspective tricks with orthographic projection, presenting 3D worlds on a 2D screen, with 2D movement, in an interesting way.
+[Beat-Em Up](https://en.wikipedia.org/wiki/Beat_%27em_up) games often mix perspective tricks with orthographic projection, presenting 3D worlds on a 2D screen, with 2D movement. The tricks they use to accomplish this are an interesting study. Lets consider *River City Girls*.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MDrc5Jzm2wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -208,21 +219,27 @@ There is no parallax due to the orthographic projection and 2-Dimensional engine
 
 The two major depth cues in this game are occlusion, which is obvious. The second is vertical position.
 
-In the gameplay, the vertical position is the *only* element that effects depth. As you "forwards and backwards" you move straight up and down. But consider the perspective presented by the background scenery. We can see the sides of many objects. It's.... wrong! But the objects are presented at such a steep projection, they enforce vertical position as being related to depth far more than horizontal position being related to depth.
+The use of vertical position as depth a blatant defiance of perspective. Specifically, the very perspective that the game's own background and scenery are illustrated in.
 
-In the below screenshot, the dumpster and the truck are angled opposite to each other, implying a vanishing point that is impossible with an orthographic projection - things don't get smaller when they get further away. 
+In the gameplay, the vertical position is the *only* element that effects depth. As you "further and closer" you move straight up and down. But consider the perspective presented by the background scenery. We can see the sides of many objects. It's.... wrong! But the objects are presented at such a steep projection, they do enforce vertical position as being related to depth far more than they enforce horizontal position being related to depth.
+
+In the below screenshot, the dumpster and the truck are angled opposite to each other, implying a vanishing point that is impossible with an orthographic projection - things don't get smaller when they get further away. The objects are in conflict, but only in conflict in how they treat horizontal position/depth. They both enforce a vertical position to depth relationship the same way. 
+
+We are left with confused or conflicting understanding of hor horizontal position relates to depth, and we casually disregard this confusion, while all objects in the scene enforce - with their own perspectives - the same relationship that attributes vertical position to depth.
 
 ![Screenshot from River City Girls](images/riverCity1.jpg)
 
 The game simplifies the world to and projection in ways that defy both perspective and orthographic projections, but it works. Everything reinforces the assumption of vertical position being related to distance. Combined with a number of reference objects, foreground objects and more. The system breaks when we have characters jump and when characters are different heights. The drop-shadow is present to provide a positional cue that relives this ambiguousness.
 
-As a designer, it can be impossible to do things "accurately". Even in VR. We must be aware of what we can provide that present clarity to ambiguous visual clues and "override conflicting ones. 
+Consider if the scene were drawn consistently, the background all in the same perspective like that of the dumpster, moving left to right as it gets further away from the camera. If the environment had consistent perspective signals, then the character movement *would* feel incorrect. Instead, the incongruent background *helps* the movement feel appropriate by obfuscating the relationship between horizontal position and depth to the point where we disregard it.
+
+As a designer, it can be impossible to do things "accurately". Even in VR. We must be aware of what we can provide that present clarity to ambiguous visual clues and "override" or muddle-up conflicting ones. 
 
 ### Animal Crossing: New Horizons
 
-The game *Animal Crossing: New Horizons* appears to use an orthographic camera - avoiding linear perspective. No matter how far away things are, they should appear the same size. But they don't, the illusion of a 3 dimensional space is so convincing, it's hard to register the environment as "orthographic".
+The game *Animal Crossing: New Horizons* appears to use an [orthographic](PerspectiveDistortionAndProjections.md) camera - avoiding linear perspective. No matter how far away things are, they should appear the same size. But they don't, the illusion of a 3 dimensional space is so convincing, it's hard to register the environment as "orthographic".
 
-As objects get further from the camera, the game bends them towards the horizon, and adds a fairly significicant atmospheric gradation, and background blur. Objects will also rotate (with the ground) affecting the visibility of their various sides, depending on how far away they are. 
+As objects get further from the camera, the game bends them towards the horizon, and adds a fairly significant atmospheric gradation, and background blur. Objects will also rotate (with the ground) affecting the visibility of their various sides, depending on how far away they are. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_3YNL0OWio0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
