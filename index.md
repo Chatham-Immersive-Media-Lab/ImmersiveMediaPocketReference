@@ -5,7 +5,7 @@ title: Immersive Media Pocket Reference
 
 Hello.
 
-This site is a work-in-progress resource for collecting knowledge about VR. See the [about](about.md) page.
+This site is a work-in-progress resource for collecting knowledge about VR. See the [about](about.md) page. You can contribute through pull requests on [github](https://github.com/Chatham-Immersive-Media-Lab/ImmersiveMediaPocketReference).
 
 This site has:
 
