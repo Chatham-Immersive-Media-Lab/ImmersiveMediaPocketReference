@@ -7,7 +7,7 @@ aside:
 sidebar:
   nav: notes
 ---
-[Perceiving Space: Haptics](PerceivingSpaceHaptics.md) is a discussion of the elements that, as VR designers, we generally do not have control over.
+[Perceiving Space: Haptics](PerceivingSpaceHaptics.md) is a discussion of the external elements of "feeling", while this is a discussion of the internal elements. 
 
 This page is a discussion of one element of the bodies non-visual, not-auditory, perception system that we *do* have a lot of control over: Proprioception. The bodies sense of self.
 
@@ -46,6 +46,9 @@ Dustiness, freshness, etc.
 ### Ambient Smell
 
 ## Haptics
+
+## Environmental Objects
+Banisters, Railings, tables, armrests...
 
 ### Ground/Feet
 Surface texture, bumpiness, give, solidity... 
