@@ -124,7 +124,7 @@ Reverberation and room tone are very important for VR, but this is not the space
 
 When it comes to design, reverb is far more important in helping inform the user into architectural properties of the environment. Particularly scale and material. A small underground cave will sound different than a large cavern, which will sound different than a wooden hut.   
 
-> Consider this next time you walk down a stairwell. Many stairwells are highly reverberent, it's easy to identify the sounds. The direct sounds of your footsteps never really change location, but as you approach the bottom of the stairwell, the reverberation of the footsteps changes. Your ears tell you that you are near the bottom (i.e.: it's time to look up from your phone).
+> Consider this next time you walk down a stairwell. Many stairwells are highly reverberant, it's easy to identify the sounds. The direct sounds of your footsteps never really change location, but as you approach the bottom of the stairwell, the reverberation of the footsteps changes. Your ears tell you that you are near the bottom (i.e.: it's time to look up from your phone).
 
 Reverb is easy to fake, and "inject" into audio recordings. Adding "fake" reverb to a recording is a fundamental tool in a sound engineers toolkit.
 
@@ -143,7 +143,7 @@ A single frequency - such as a single note being played on a violin, or a comput
 Our auditory system does best within certain frequency ranges, where we are more perceptive. Such as the range of frequencies that make up human speech. Higher and lower frequencies of sound are challenging. Our ears are less perceptive to them, they don't distort or change as much while reverberating around a room, and can be basically meaningless in terms of phase difference.
 
 ### Unexpected Sounds
-When an audio cue catches us off guard, we may not be paying enough - or the right kind - of attention to it. We may need to stop and focusing on the sound in order to locate it, which is 1) bad for sound design but 2) useless when the sound only happens once, and unexpectedly, or at unexpected inteverals. 
+When an audio cue catches us off guard, we may not be paying enough - or the right kind - of attention to it. We may need to stop and focusing on the sound in order to locate it, which is 1) bad for sound design but 2) useless when the sound only happens once, and unexpectedly, or at unexpected intervals. 
 
 ### The Annoy-A-Tron
 Using the above information, can we imagine a device that creates noises that one can't find? One that chirps high pitch, single, briefly sustained, audio at random intervals with slightly random changes in pitch and volume. If you hide this device, it would be really annoying. Enter the "annoy-a-tron", a device created and sold by the now-defunct thinkgeek.com.
@@ -161,9 +161,9 @@ We are better at localizing sounds on a horizontal plane than vertical. avoid pu
 Certain frequencies are easier to localize than others. Ensure sounds of important elements include these "normal" frequencies in their design.
 
 ### Avoid Acoustic Minimalism
-With the goal of creating immersive environments, we want to locate the user in a rich soundfield.
+With the goal of creating immersive environments, we want to locate the user in a rich sound-scape.
 
-Within reason, and with plenty of exceptions, it's probably better to have more things in your environment that are producing noise, than less. Obviously we don't want to drown out, overwhelm, or distract the user with excessive sound design. But a minimalist approach where *only* the things that matter make sound? In the words of one of my students referencing some meme I've never heard of: "That ain't it, chief".
+Within reason, and with plenty of exceptions, it's probably better to have more things in your environment that are producing noise, than less. Obviously we don't want to drown out, overwhelm, or distract the user with excessive sound design. But a minimalist approach where *only* the things that matter make sound? In the words of one of my students referencing something I've never heard of: "That ain't it, chief".
 
 ### Ambiance in VR Design
 Sound design theory from games involves making sounds big, punchy, and attention getting - high impact. Great for reactive and informative sounds in our environments! But we do more than that. We also need *ambient sounds*. Sounds that are designed to just subtly reinforce the sense of presence, environment, and mood.
@@ -174,9 +174,9 @@ Sound design theory from games involves making sounds big, punchy, and attention
 
 These sounds should not be designed in a way to get the users attention, or incorrectly indicate importance. This is a challenge. It goes against many users learned preconceptions about designed environments. *"That this is buzzing - lets investigate!"*
 
-One strategy is to have sounds come from important things. Give your environment ambiance via it's significent elements. In other words: bypass the problem! Excellent.
+One strategy is to have sounds come from important things. Give your environment ambiance via it's significant elements. In other words: bypass the problem! Excellent.
 
-Another strategy is to use items that users have already been trained in real life to ignore or deemphasize. For example, speakers playing diegetic background music, birds chirping outside of a window, cars drumbling past a road outside, or fans. (I would tend to avoid things that sound unique but don't have a visible source, like an air conditioner hum).
+Another strategy is to use items that users have already been trained in real life to ignore or deemphasize. For example, speakers playing diegetic background music, birds chirping outside of a window, cars rumbling past a road outside, or fans. (I would tend to avoid things that sound unique but don't have a visible or identifiable source, like an air conditioner hum, unless it contributes to the environment or storytelling in other ways).
 
 
 ## Interesting/Related

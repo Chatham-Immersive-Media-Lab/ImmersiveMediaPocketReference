@@ -25,38 +25,15 @@ Don't worry, you can still achieve impressive results with a subtle touch.
 What does your posture say about the space you are in? As immersive designers, I think your first consideration is the emotion and mood of ones posture. Are they comfortable, tense, relaxed, or wary? Lets focus on how posture affects our perception of space.
 
 ### Standing Room
-When was the last time you built a pillow-fort, or holed-up inside of a tent? Small spaces where standing is impossible. Any space that is to small to stand up in feels incredibly small, and spaces that may just be large enough to stand comfortably can feel far larger then they really are.
+When was the last time you built a pillow-fort, or holed-up inside of a tent? Small spaces where standing is impossible. Any space that is to small to stand up in feels incredibly small, and spaces that may just be large enough to stand comfortably can feel far larger than they really are.
 
-Consider the common refrain of how *small* playgrounds or other childhood locations feel when one returns to them as an adult. This isn't just a nostalgia, the environments really *do* feel larger to children than adults. 
+Consider the common refrain of how *small* playgrounds or other childhood locations feel when one returns to them as an adult. This isn't mere nostalgia, the environments really do *feel* disproportionately larger to children than adults. 
 
 > I do not believe this extends or supports the idea that someone shorter feels like a space is larger or smaller than a taller individual, as we have all reached our own levels of calibration, so to speak. The size of a "regular room" is likely more informed by the rooms we have regularly experienced more than a variation in height by a foot or two.
 
 ### Transitioning Posture
 ex: Ask a player to duck through a threshold to enter a larger space, and the transition from small to large may be all the more dramatic.
 
-## Air Quality
-
-### Temperature
-
-### Humidity
-
-### Stuffiness
-Dustiness, freshness, etc.
-
-### Ambient Smell
-
-## Haptics
-
-## Environmental Objects
-Banisters, Railings, tables, armrests...
-
-### Ground/Feet
-Surface texture, bumpiness, give, solidity... 
-
-### Attention to Foot Placement
-How much focus do we need to give to where we are standing or placing our feet?
-
-One might call it "breathing room". Having the space to shift ones weight about is wildly different then having to make sure, precise steps onto particular places.
 
 
 
