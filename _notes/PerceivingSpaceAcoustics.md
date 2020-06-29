@@ -59,7 +59,7 @@ For impulse sounds, we can identify the time difference it took for the sound to
 <audio controls src="/sounds/StereoBasics.mp3"></audio>
 
 #### Stereo Recording Example
-<audio controls src="/sounds/StereoRecording.mp4">
+<audio controls src="/sounds/StereoRecording.mp4"> </audio>
 ### Phase Difference
 But what about continuous sounds? Surely if there is no start or stop time, this doesn't helps us at all? Wrong! Our brains can identify the *phase difference* and localize sound from that.
 
