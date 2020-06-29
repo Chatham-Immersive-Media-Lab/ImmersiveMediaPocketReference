@@ -19,6 +19,8 @@ Many things around us produce a sound. Theres the obvious sound producing things
 
 How we perceive the space is largely informed by this sound. We also use it to inform our own location within the space, and we can get a sense of the scale, the "character" or "mood", and more of a space from its acoustic properties.
 
+Even if a user is not trying or able to precisely identify the location of a particular sound source, being capabale of doing so - having more localization information - helps the player feel present in the environment. In other words, effective environmental sound design can significantly lower the barrier to a feeling of immersion.
+
 Never underestimate sound design.
 
 Everything around us affect the way things sound
@@ -128,18 +130,43 @@ Reverb is easy to fake, and "inject" into audio recordings. Adding "fake" reverb
 
 It's challenging, but not impossible, to simulate reverb in VR. As designers, we should be aware of the ways to add reverb to our sounds in order to help sell a particular environment, and make it feel impactful.
 
+## Challenges to Audio Localization
+We must be careful in our sound design when creating environments. 
+
+### Constant Audio
+Hums, buzzing, noise, and continuous tones can be very difficult to locate in space. There is basically no time difference and often a hard to perceive level difference. We must rely largely on phase difference, which often - particularly the case with noise - just isn't enough information. 
+
+### Constant Frequencies
+A single frequency - such as a single note being played on a violin, or a computer generated sin wave signal - is challenging to locate. There is less information contained in all cues, but particularly head transformation effect and ear shape cues.
+
+### Certain Frequencies
+Our auditory system does best within certain frequency ranges, where we are more perceptive. Such as the range of frequencies that make up human speech. Higher and lower frequencies of sound are challenging. Our ears are less perceptive to them, they don't distort or change as much while reverberating around a room, and can be basically meaningless in terms of phase difference.
+
+### Unexpected Sounds
+When an audio cue catches us off guard, we may not be paying enough - or the right kind - of attention to it. We may need to stop and focusing on the sound in order to locate it, which is 1) bad for sound design but 2) useless when the sound only happens once, and unexpectedly, or at unexpected inteverals. 
+
+### The Annoy-A-Tron
+Using the above information, can we imagine a device that creates noises that one can't find? One that chirps high pitch, single, briefly sustained, audio at random intervals with slightly random changes in pitch and volume. If you hide this device, it would be really annoying. Enter the "annoy-a-tron", a device created and sold by the now-defunct thinkgeek.com.
+
+As VR Designers, our goal is to *not* prank our users with horribly annoying audio. We can use this information to know what kind of sound design we wan to avoid. 
 
 ## Takeaways
 Most of the above information deals with sound traveling directly to our ears. What can we do with this information?
 
+### The Horizontal Plane
 We are better at localizing sounds on a horizontal plane than vertical. avoid putting key acoustic information directly above or below the player. 
 
-> Consider a direct example for the need to localize sound. A "beacon" system that allows players to point out a location by pointing at it, and having it make a visual and acoustic effect. Beacons are often used in multiplayer experiences. Consider if someones points near someones feat, or nearby. We want it to be easy for the player to tell if they fired the beacon to the side, or behind, the player. We could check if we are close to a user, and if so, add a second invisible sound source above the ground, closer to the horizontal plane of the users ears, in order to better communicate the beacons directionality to that user. It could just play the same sound effect, or carry direct-not-reverberent audio only.
+> Consider a direct example for the need to localize sound. A "beacon" system that allows players to point out a location by pointing at it, and having it make a visual and acoustic effect. Beacons are often used in multiplayer experiences. Consider if someones points near someones feat, or nearby. We want it to be easy for the player to tell if they fired the beacon to the side, or behind, the player. We could check if we are close to a user, and if so, add a second invisible sound source above the ground, closer to the horizontal plane of the users ears, in order to better communicate the beacons directionality to that user. It could just play the same sound effect, or carry direct-not-reverberant audio only.
 
-Certain Frequencies are easier to localize than others. Ensure sounds of important elements include these "normal" frequencies in their design.
+Certain frequencies are easier to localize than others. Ensure sounds of important elements include these "normal" frequencies in their design.
+
+### Avoid Acoustic Minimalism
+With the goal of creating immersive environments, we want to locate the user in a rich soundfield.
+
+Within reason, and with plenty of exceptions, it's probably better to have more things in your environment that are producing noise, than less. Obviously we don't want to drown out, overwhelm, or distract the user with excessive sound design. But a minimalist approach where *only* the things that matter make sound? In the words of one of my students referencing some meme I've never heard of: "That ain't it, chief".
 
 ### Ambiance in VR Design
-Sound design theory from games involves making sounds big, punchy, and attention getting - high impact. Great for reactive and informative sounds in our environments! But we do more than that. We also need *ambient sounds*. Sounds that are designed to just subtly reinforce the sense of presense, environment, and mood.
+Sound design theory from games involves making sounds big, punchy, and attention getting - high impact. Great for reactive and informative sounds in our environments! But we do more than that. We also need *ambient sounds*. Sounds that are designed to just subtly reinforce the sense of presence, environment, and mood.
 
 **They help the user locate themselves in the environment as they move about.** They also are important for design, ambient sound informs the player a lot about mood and atmosphere of spaces.
 
