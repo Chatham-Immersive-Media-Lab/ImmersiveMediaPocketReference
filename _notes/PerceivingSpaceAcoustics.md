@@ -56,10 +56,15 @@ Sound in front of us will reach our ears about the same time, but sound to the s
 For impulse sounds, we can identify the time difference it took for the sound to reach our ears to localize it. Neat!
 
 #### Stereo Level/Time Delay Example
-<audio controls src="/sounds/StereoBasics.mp3"></audio>
+<audio controls src="sounds/StereoBasics.mp3"></audio>
+
+[StereoBasics.mp3](/_notes/sounds/StereoBasics.mp3)
 
 #### Stereo Recording Example
-<audio controls src="/sounds/StereoRecording.mp4"> </audio>
+<audio controls src="sounds/StereoRecording.mp3"></ audio>
+
+[StereoRecording.mp3](/_notes/sounds/StereoRecording.mp3)
+
 ### Phase Difference
 But what about continuous sounds? Surely if there is no start or stop time, this doesn't helps us at all? Wrong! Our brains can identify the *phase difference* and localize sound from that.
 
@@ -107,6 +112,8 @@ Every environment sounds different. Sound travels directly from the source to th
 
 #### Reverb Example
 <audio src="sounds/reverbExamples.mp3" controls> </audio>
+
+[reverbExamples.mp3](sounds/reverbExamples.mp3)
 
 *Mono Recording with Examples of Reverb. Reverb added digitally*.
 
