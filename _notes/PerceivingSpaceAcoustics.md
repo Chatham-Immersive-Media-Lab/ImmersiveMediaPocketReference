@@ -55,6 +55,11 @@ Sound in front of us will reach our ears about the same time, but sound to the s
 
 For impulse sounds, we can identify the time difference it took for the sound to reach our ears to localize it. Neat!
 
+#### Stereo Level/Time Delay Example
+<audio controls src="/sounds/StereoBasics.mp3"></audio>
+
+#### Stereo Recording Example
+<audio controls src="/sounds/StereoRecording.mp4">
 ### Phase Difference
 But what about continuous sounds? Surely if there is no start or stop time, this doesn't helps us at all? Wrong! Our brains can identify the *phase difference* and localize sound from that.
 
@@ -100,7 +105,7 @@ One way to simulate this effect is not to simulate it digitally at all. Instead,
 ### Reverberation, Signature and Tone
 Every environment sounds different. Sound travels directly from the source to the listener. Sound also travels all around the environment, where it bounces off of things ("picking up" new acoustic properties) and then traveling to the listener. It took longer for these sounds to reach the listener than the direct. We call these indirect sounds "reverberation". 
 
-
+#### Reverb Example
 <audio src="sounds/reverbExamples.mp3" controls> </audio>
 
 *Mono Recording with Examples of Reverb. Reverb added digitally*.
