@@ -87,14 +87,14 @@ notes:
         url: /notes/perceivingSpaceVision.html
       - title: Haptics
         url: /notes/perceivingSpaceHaptics.html
-      - title: Self
-        url: /notes/perceivingSpaceSelf.html
   - title: VR Design
     children:
       - title: Teleportation Notes
         url: /notes/teleportationNotes.html
       - title: Postmodern Signifiers
         url: /notes/postmodernSignifiers.html
+      - title: Designing For Proprioception
+        url: /notes/proprioception.html
   - title: Concepts
     children:
       - title: Perspective Distortion and Projections

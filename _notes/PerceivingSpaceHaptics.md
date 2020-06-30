@@ -70,6 +70,6 @@ Generally these come from smells that are either sourced from all about the envi
 ### Our Own Smell
 Much to the consternation of our roommates, we have all gotten quite good at ignoring the smell of ourselves. Frankly, I don't really know what I smell like, and I disregard this when considering the environment.
 
-If one is exceptionally pungent (perhaps wearing cologne), it is more *noise* that my nose must process and ignore in order to percieve the *signal* of the smells of the environment.
+If one is exceptionally pungent (perhaps wearing cologne), it is more *noise* that my nose must process and ignore in order to perceive the *signal* of the smells of the environment.
 
 What are the exceptions? Can they inform us of the environment? Are there examples that are more universal than personal, shared by enough of the population? Sunscreen and a day at the beach, perhaps.

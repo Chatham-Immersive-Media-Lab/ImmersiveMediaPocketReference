@@ -41,6 +41,7 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [Open Source Afro Hair Library](https://prettydarke.cool/portfolio/open-source-afro-hair-library/)
 - [CC0 Cultural Heritage - Aphva](https://sketchfab.com/Aphva/collections/cc0-collection)
 - [CC0 Cleveland Museum of Art](https://sketchfab.com/clevelandart/collections/cma-cc0-objects)
+- [The Hallwyl Museum](https://sketchfab.com/TheHallwylMuseum)
 
 
 ## Textures

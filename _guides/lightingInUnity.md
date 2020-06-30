@@ -69,3 +69,7 @@ Reflection Probes won't work until the lighting has been baked.
 ### Conclusion
 That's the basics. You may have noticed that this guide includes a lot of links to the unity manual. That's no coincidence. Now that you know the various things you need to do, check out the manual when you need to dig deeper or figure out how something is working in more detail.
 
+## Further Resources
+- [Tutorial on Lighting and Rendering on Unity Learn](https://learn.unity.com/tutorial/intermediate-lighting-rendering)
+- [Tutorial on Precomputed Realtime GI on Unity Learn](https://learn.unity.com/tutorial/precomputed-realtime-gi-global-illumination)
+- [Tutorial on Configuring Light Probes on Unity Learn](https://learn.unity.com/tutorial/configuring-light-probes-2019-3)
