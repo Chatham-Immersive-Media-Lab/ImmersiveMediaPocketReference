@@ -160,6 +160,25 @@ This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of
 ### Occlusion and Interpolation
 If something is in front of (and closer) than something else, it will visibly block (or "occlude") that something else. Thus: Establishing relative positions. 
 
+While occlusion does not provide a lot of independence, it is an unforgiving depth cue. Breaking occlusion can *really* break the illusion of space.
+
+![Occlusion](images/occlusion.png)
+*Occlusion, Elevation From Horizon, and perspective distortion are the only depth cues present in this image.*
+
+Above, note how occlusion works with elevation from horizon (the triangle is higher up) and perspective distortion (the triangle is smaller, the circle is largest) to present a space. Compare that to the below image which has occlusion disagree with the other two cues. The image does not present itself as a space.
+
+![Occlusion with mismatching cues](images/occlusion2.png)
+
+Occlusion can be remarkably effective, even though it can only generally only be used to order elements and their distances. It's extremely effective when combined with cues like familiar/relative size, perspective, and motion parallax.
+
+> The way I like to think about it that has no basis in psychological research that I know of, is that occlusion gives us a quick "depth ranking" ballpark of spatial information, from which we can easily refine to an understanding with other cues.
+
+One exception is intersecting objects, where an object with a known shape intersects or overlaps another object, it becomes partially occluded. Because we know what shape it *should* be, the information for where the shape it occluded becomes useful. Consider, in VR, having visual "hands" or "pointers" that overlap objects when you hover over them to pick them up. See Cubism below for an example of this.
+
+> It's remarkable how effective a bit of overlap is when parsing a scene. When designing a level can be easy to fall into the trap of laying out everything "cleanly" without visual overlap. Do make efforts to break this habit and experiment.
+
+See the breakdown on Moss below for an excellent use of occlusion.
+
 ### Shadows and Lighting
 *wip*
 ### Textures and Detail Level
