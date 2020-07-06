@@ -180,7 +180,25 @@ The below image doesn't have very many depth cues. The metal bridge is ambiguous
 
 ![Image of Railings](images/railings.jpg)
 
-### Background-Separation ("Figure-Ground")
+### Background-Separation and Object Recognition.
+Our vision system is capable of identifying objects separate from their backgrounds. It's a complicated system, we will focus on the mere act of recognition.
+
+*Object recognition* is not *depth perception*, but it is closely linked. Object recognition provides key indicators for depth perception that allow things like *occlusion* and *relative scale* to work effectively as depth cues. If multiple objects blur our blend into each other, or if it's challenging to distinguish them from the background, then the perception of depth and space will likewise be challenging.
+
+![The classic Vase/Face figure-ground illusion](images/figureGround.jpg)
+*This classic optical illusion depends on our recognition of figure and ground. Do you see a Vace or two faces? Whichever you see, that's the figure, while the rest fades into ground.*
+
+The above illusion happens when *figure* and *ground* are mentally switched. But that's less important for us than a more common problem: when they simply *compete* or *confuse* one another. 
+
+When we can easily recognize objects, we can use them to help us understand the space they are in.
+
+For developers, that usually means having characters that stand out. In 3D environments where characters can move about freely, this is a challenge that is solved by effective lighting, character design, animation, and strong silhouette (or less subtle methods like outlines). For designing understandable spaces, it means making visible the distinctions between objects at different depth positions. Again, effective lighting is our friend. 
+
+![Limbo screenshot](images/limbo.png)
+
+The 2D game Limbo uses a strong visual style that can make visually identifying the character challenging. It faces a figure-ground problem that it must tackle through a variety of means. While it will sometimes partially occlude the character with foreground elements, it often avoids that. The background is separated not just through lighting, but also the cues of *blur*, *fog*, and a texture effect that reduces the sharpness of the background elements and makes them visually distinct but not attention-getting. The main character has a recognizable silhouette, and his eyes are almost always the brightest element on the screen. He is also constantly in motion, even the idle animation is lively while the world - which is full of subtle motions - has animations that are generally slow, subtle, mechanical, or lumbering (terrifying spiders excluded).
+
+All of these depth cues primarily exist to separate two planes "foreground" and "background". Little more spatial presentation is necessary for this stylish 2D platformer game.
 
 ### Kinetic Depth Effect
 
@@ -295,12 +313,12 @@ Consider if the scene were drawn consistently, the background all in the same pe
 As a designer, it can be impossible to do things "accurately". Even in VR. We must be aware of what we can provide that present clarity to ambiguous visual clues and "override" or muddle-up conflicting ones. 
 
 ### Cubism (demo)
-[Animated Gif of Cubism taken from developer store page](images/cubism3.gif)
+![Animated Gif of Cubism taken from developer store page](images/cubism3.gif)
 *Press Gif from developer webpage.*
 
 *Cubism* is a minimalist VR puzzle game, like a 3D Tanagram puzzle. By "Minimalist", it means "has basically no environment whatsoever". So how can a game that removes *almost everything* present depth and space to the user?
 
-[Screenshot of Cubism Demo](images/cubism.jpg)
+![Screenshot of Cubism Demo](images/cubism.jpg)
 
 The first is by understanding VR's strengths, and keeping the scale close and tight. This allows motion parallax, stereoscopy, and perspective changes from head movement to be the primary indicator of depth.
 
@@ -308,7 +326,7 @@ Significantly, the game includes a **ground plane**. Implied merely through the 
 
 The game also provides minor extra perspective information: grid-dots on the shape and a transparent reference plane below it. The cubes that we manipulate are lit brightly, with shadow information that is telling of their orientation and shape. When we select an object, our hand-pointers intersect and become partially occluded (and the object is outlined).
 
-[Cubism Selection](images/cubism2.jpg)
+![Cubism Selection](images/cubism2.jpg)
 *The cursor becomes partially occluded by the block when it is intersecting it.*
 
 This approach is still lacking in a number of ways. There is just so *little* to work with. Notably, the interactions are challenging by being all within arms reach, and it can be annoying to twist one's hand about to re-orient shapes. Spatially, I would have liked to see the grid-dots extend (faded, perhaps) outside of the shape and towards our periphery. Lastly, and potentially harming the aggressively minimal aesthetic, one could place couch-sized blocks on the ground in the distance to provide a stable reference for orientation and scale. (I would experiment with piling up completed levels to also give a sense of accomplishment and progress).
