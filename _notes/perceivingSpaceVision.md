@@ -14,7 +14,7 @@ Optical illusions are results of disagreements between separate information piec
 We must understand many of the tools and tricks that our brains use to correctly perceive space in order to better present space. 
 
 ## Vocabulary
-
+*wip*
 ## We See Depth
 Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time. How far away is that thing? How large is it?
 
@@ -160,12 +160,10 @@ This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of
 ### Occlusion and Interpolation
 If something is in front of (and closer) than something else, it will visibly block (or "occlude") that something else. Thus: Establishing relative positions. 
 
-
-
 ### Shadows and Lighting
-
+*wip*
 ### Textures and Detail Level
-
+*wip*
 ### Size of Similar Objects
 The same cue as perspective distortion/linear perspective and familiar size, taken together. I want to draw emphasis on objects that may not be of a *known* size, but of some size that we establish *within the environment*. By repeating this same object around the environment, size becomes an indicator of depth.
 
