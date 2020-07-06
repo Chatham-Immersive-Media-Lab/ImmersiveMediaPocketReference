@@ -160,7 +160,7 @@ This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of
 ### Occlusion
 If something is in front of (and closer) than something else, it will visibly block (or "occlude") that something else. Thus: Establishing relative positions. 
 
-While occlusion does not provide a lot of independence, it is an unforgiving depth cue. Breaking occlusion can *really* break the illusion of space.
+While occlusion does not provide a lot of information, it is an unforgiving depth cue. Breaking occlusion can *really* break the illusion of space.
 
 ![Occlusion](images/occlusion.png)
 *Occlusion, Elevation From Horizon, and perspective distortion are the only depth cues present in this image.*
@@ -176,6 +176,8 @@ Occlusion can be remarkably effective, even though it can only generally only be
 One exception is intersecting objects, where an object with a known shape intersects or overlaps another object, it becomes partially occluded. Because we know what shape it *should* be, the information for where the shape it occluded becomes useful. Consider, in VR, having visual "hands" or "pointers" that overlap objects when you hover over them to pick them up. See Cubism below for an example of this.
 
 > It's remarkable how effective a bit of overlap is when parsing a scene. When designing a level can be easy to fall into the trap of laying out everything "cleanly" without visual overlap. Do make efforts to break this habit and experiment.
+
+Lastly, consider grass. Or more generally, lots of small objects that slightly occlude something. One can use this occlusion to more precisely locate somethings in this "field of grass", which also (likely) has strong perspective cues (many similar sized objects laid out on a single plane). 
 
 See the breakdown on Moss below for an excellent use of occlusion.
 
