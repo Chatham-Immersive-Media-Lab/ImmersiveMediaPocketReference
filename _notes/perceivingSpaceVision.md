@@ -102,8 +102,16 @@ Move your head about. You don't need to move it much, just a bit. Pay attention 
 
 Consider how when you look at something far away, you squint, you crane your neck forward... and you bob your head side to side. That small side to side movement is a subconscious little action for estimating the depth of what you are looking at, by seeing how much it moves relative to what's around it. The relative perceived speeds of objects at different distances is *motion parallax*.
 
+Many 2D Games imply depth through motion parallax. In the three below examples (from Rayman and Sonic) notice the different background planes, and why some are more convincing or "look better" than others.
+
+![Rayman with a single background plane](images/rayman.gif)
+*Rayman has a single background plane that provides an unconvincing illusion of depth. Other levels of the original Rayman uses multiple planes for a more convincing illusion.*
+
+![Rayman with multiple background planes](images/rayman2.gif)
+*Notice how elements across multiple background planes (at different apparent distances) do an incredible amount of work in creating an illusion of depth, compared to a single plane. Even with such a low level of "realism", there is an incredible presentation of space and depth*
+
 ![Sonic The Hedgehog uses a Parallax effect](images/sonic2.gif)
-*Many 2D Games imply depth through motion parallax. Notice multiple different background planes that move at different speeds, implying depth. Even with such a low level of "realism", there is an incredible presentation of space and depth.*
+*The background parallax elements in Sonic The Hedgehog move vertically as well as horizontally.*
 
 Even incredibly complex scenes of hundreds of thousands of otherwise similar points can "click" into an understanding in mere moments. 
 
@@ -112,7 +120,9 @@ Even incredibly complex scenes of hundreds of thousands of otherwise similar poi
 
 Motion parallax is an incredibly strong depth cue, and one of the largest advantages that VR can bring to the table. No longer needing large fast moving characters in 3D worlds, VR Developers have the freedom to slow down the "camera" and let small subtle motions provide the information, even from our periphery and while standing nearly still.
 
-Motion parallax has it's limits, of course. Less effective for super far away distances, for moving objects (if you do dust motes, don't have them flutter too quickly), 
+Motion parallax has it's limits, of course. It's less effective for far away distances, and less effective for moving objects (i.e. objects moving differently than the world around them. It's all relative). 
+
+> A quick note: If you do implement dust motes in VR, don't have them flutter or move too rapidly.
 
 #### Dust Motes
 Having small points floating around in space is an extremely effective way to establish space and scale in VR. Dust motes, bits of dust floating around, often require no contextual explanation for their existence, and they can go a long way to help.
