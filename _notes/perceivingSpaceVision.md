@@ -157,7 +157,7 @@ In my opinion, not giving the user relative/familiar size comparisons is one of 
 This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of a building in Pittsburgh. There is almost nothing to disconnect the foreground - greg - with the background. Just a small amount of blur and texture/detail level. Greg looks like he is the size of these buildings! Luckily our sense of relative sizes - and that small amount of blur - keep us from falling to a "forced perspective" illusion.
 ![An image of a man on a rooftop, overlooking Pittsburgh](images/giantGreg.png)
 
-### Occlusion and Interpolation
+### Occlusion
 If something is in front of (and closer) than something else, it will visibly block (or "occlude") that something else. Thus: Establishing relative positions. 
 
 While occlusion does not provide a lot of independence, it is an unforgiving depth cue. Breaking occlusion can *really* break the illusion of space.
