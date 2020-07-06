@@ -7,26 +7,32 @@ aside:
 sidebar:
   nav: notes
 ---
-First, one must comprehend that an understanding of space does not come from merely looking at the space. There is a phenomenal degree of what we might call "processing". We do a lot of mental work to go from what our sensors (eyes) report to an accurate understanding the world around us. What we see is not what we get. 
+First, one must know that an understanding of space does not come from merely looking at the space. There is a phenomenal degree of what we might call "processing". We do a lot of mental work to go from what our sensors (eyes) report to an accurate understanding the world around us. What we see is not what we get. Our vision system is constantly combining and making sense of a large quantity of sometimes-disagreeing information, and it always attempts come to some cohesive result that it could be said to "present" to our conscious.
+
+Optical illusions are results of disagreements between separate information pieces that we can't "wrap our minds around". 
 
 We must understand many of the tools and tricks that our brains use to correctly perceive space in order to better present space. 
 
 ## Vocabulary
 
 ## We See Depth
-Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time.
+Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time. How far away is that thing? How large is it?
 
-Eyes receive light projected through a lens in the eye onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. They don't know anything direct about how far away any ray of light came from. Our brains have to deduce depth from a variety of cues, merging them all together to an understanding of space. This page covers many depth cues the human vision system uses. 
+Eyes receive light projected through a lens in the eye onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. Like the film in a camera, they don't know anything direct about how far away any ray of light came from. Our brains have to deduce depth from a variety of cues, merging them all together to an understanding of space. This page covers many depth cues the human vision system uses. 
 
 ![Eye Diagram by Chris Sullivan](images/eyeDiagram.jpg)
 *Eye Diagram by Chris Sullivan. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_02.jpg).* [Here](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_04.jpg) is a version with labels.
 
-There is much more to talk about when it comes to vision and how we construct a mental model ("understanding") of a space. This page will focus on the understanding of depth, which is the principle tool used in this process. Some "next steps" would be to study optical illusions, emotional impacts of certain spaces, and architecture.
+There is much more to talk about when it comes to vision and how we construct a mental model ("understanding") of a space. This page will focus on the understanding of depth, which is the principle tool used in this process. Some "next steps" would be to study optical illusions, emotional impacts ("feeling") of certain spaces, and architecture.
 
 ### Stereoscopy
 Comparing The difference between the image received by our eyes.
 
 Consider that for objects that are very far away, there is almost no difference between the image projected onto both of our eyes. Stereo vision has limits to it's accuracy, and that accuracy is directly related to distance.
+
+It's often concluded that stereoscopy is effectively "one-eyed for distances of about 20 feet or more", although [newer research](https://jov.arvojournals.org/article.aspx?articleid=2191614) has shown otherwise under testing conditions. That said, the effectiveness of stereoscopic vision still decreases significantly with distance. 
+
+In fact, in VR, there's a precise distance where we lose stereoscopy entirely. A distance where the difference rendered on the displays is smaller than the "width of a pixel", so to speak. i.e. It's a change smaller than the resolution of the headset can display as different. 
 
 ![Stereo Image](images/stereocard.jpg)
 A stereo print. From the [NYPL archive](https://digitalcollections.nypl.org/items/510d47e0-914e-a3d9-e040-e00a18064a99).
@@ -38,12 +44,12 @@ The above image animated using the NYPL [Stereogranimator](http://stereo.nypl.or
 ### Convergence
 We are aware of our eye muscles, and the angle they are looking: Go cross-eyed. Now look very far away. As we focus on different objects at different distances, our eyes are angled at different amounts (from cross-eyed to parallel). We are aware of this angle, and thus can use this information to deduce how far away we are looking. 
 
-This physiological cue is less preceise the further away something is, and breaks down completely for objects that are extremely close.
+This physiological cue is less precise the further away something is, and breaks down completely for objects that are extremely close.
 
 ![sketch of convergence angles](images/convergence.png)
 
 ### Accommodation
-Similar to *Convergence*, Accommodation is also a sense of muscles in our eyes. But it's the sense of the muscles we use to alter the shape of the lens in our eye (D, above) to refocus light that is coming from different angles. Different angles means different distances.
+Similar to *Convergence*, Accommodation is also a sense of muscles in our eyes. But it's the sense of the muscles we use to alter the shape of the lens in our eye *(D, above)* to refocus light that is coming from different angles. Different angles means different distances.
 
 Accommodation is the most similar to how regular camera optics work.
 
@@ -59,20 +65,19 @@ There is a lot to be said about what can be achieved by breaking and cheating wi
 
 While one might think that the virtual camera achieves linear perspective for us, in 3D engines that we are producing VR inside of, the boring truth is that it's just not enough. Open up a VR scenes and float some cubes around you. Do you know how large they are? How far away they are? Probably not. Ground your objects inside of scenes - like rectangular rooms with repeating details, give the ground and walls texture, like tiles floors - and otherwise provide the visual information that becomes perspective cues when projected in linear perspective.
 
-![An image of a library shot with strong 1 point perspective](images/vanishingpoint.jpg)
+![An image of University Of Michigan's Law library shot with strong single point perspective](images/vanishingpoint.jpg)
 *University of Michigan Law Library. An image with strong linear perspective, there's a clear vanishing point in the center of the image.*
 
 ![Image of Yale library with spherical projection](images/yale.jpg)
 *This image of [Yale's Library](https://upload.wikimedia.org/wikipedia/commons/3/36/20170420_Beinecke_Rare_Book_Library_Interior_Yale_University_New_Haven_Connecticut.jpg) was shot with non-linear projection. Straight lines are not straight, and parallel lines are not parallel nor do they converge to a single point. This image uses [stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection).*
 
-
-The below image is off-putting because it showcases two perspectives - one on the projected screen, the other in the art gallery - that are incompatible. As a photographer, that's why I like this image - it *doesn't* work. It's clear why, but is still uncomfortable to look at. The on-screen perspective is *close* to the real camera perspective, so our brains make an attempt at fitting it all together. We want to bend the world and make it work. It doesn't.
+The below image is off-putting because it showcases two perspectives - one on the projected screen, the other in the art gallery - that are incompatible. As a photographer, that's why I like this image - it *doesn't* work. It's clear why, but is still uncomfortable to look at. The on-screen perspective is *close* to the real camera perspective, our brains make an attempt at fitting it all together. We want to bend the world and make it work. It doesn't.
 
 ![Image of man sitting in front of a projector](images/dualperspective.jpg)
 *If the projected screen was a TV instead - one with solid borders that demonstrate the 2D surface the perspective image is on - the image would be less uncomfortable to look at. Borders and frames can provide a reference for establishing planes and perspective.*
 
 This image is an equirectangular projection of a 360 image captured from the center of a radially symmetric room. Everything is the same distance away, so it's all the same size. 
-![Radial Perspective](images/radialProjection.jpg)
+![Radial Perspective](images/radialProjection.jpg).
 
 
 ### Perspective Distortion
@@ -83,19 +88,40 @@ I am separating it from the above section on linear perspective because I want t
 1) Creating vanishing points and a grounded spacial environment with repetitive objects
 2) Making objects appear closer or further by making them bigger or smaller
 
-The latter we might discuss as taking advantage of "perspective distortion".
-
-When things that are different distances appear to interact with each other, our sense of perspective can be completely broken. The following is a "forced perspective" illusion, and a rather fun photography trick to try. You've likely already seen the "pushing the leaning tower of pisa" photos.
+When things of different distances appear to interact with each other, our sense of perspective can be completely broken. The following is a "forced perspective" illusion, and a rather fun photography trick to try. You've likely already seen the "pushing the leaning tower of pisa" photos.
 
 ![An image of a man eating a boat](images/forcedPerspective.png)
 *Duane Stormy - Forced Perspective*
 
-
 ### Motion Parallax
-Moving Objects
-Head Movement
+In addition to stereoscopy, we also can move our head around and compare the differences. This relative difference in objects of different distances as the viewpoint changes is the effect of *parallax*. 
 
-*Dust motes*
+Not just comparing different positions, but the mere act of moving our eyes provides information - we are keen to notice motion.
+
+Move your head about. You don't need to move it much, just a bit. Pay attention to how something in the foreground moves against the background.
+
+Consider how when you look at something far away, you squint, you crane your neck forward... and you bob your head side to side. That small side to side movement is a subconscious little action for estimating the depth of what you are looking at, by seeing how much it moves relative to what's around it. The relative perceived speeds of objects at different distances is *motion parallax*.
+
+![Sonic The Hedgehog uses a Parallax effect](images/sonic2.gif)
+*Many 2D Games imply depth through motion parallax. Notice multiple different background planes that move at different speeds, implying depth. Even with such a low level of "realism", there is an incredible presentation of space and depth.*
+
+Even incredibly complex scenes of hundreds of thousands of otherwise similar points can "click" into an understanding in mere moments. 
+
+![Agisoft Metashape](images/pointCloud2.gif)
+*Correctly selecting and editing points in the 3D scanning software Metashape is challenging. One must constantly pan and rotate the view in order to make sense of the point cloud. Mis-selections and incorrect assumptions are frequent. Effective work in the software requires constant double checking and re-evaluating what one is "really" looking at, primarily acquiring this information via motion parallax.*
+
+Motion parallax is an incredibly strong depth cue, and one of the largest advantages that VR can bring to the table. No longer needing large fast moving characters in 3D worlds, VR Developers have the freedom to slow down the "camera" and let small subtle motions provide the information, even from our periphery and while standing nearly still.
+
+Motion parallax has it's limits, of course. Less effective for super far away distances, for moving objects (if you do dust motes, don't have them flutter too quickly), 
+
+#### Dust Motes
+Having small points floating around in space is an extremely effective way to establish space and scale in VR. Dust motes, bits of dust floating around, often require no contextual explanation for their existence, and they can go a long way to help.
+
+Moss uses dust motes (in addition to a variety of other techniques) to establish space. 
+
+*Ed Note: Attempts to capture the dust motes for visual example are destroyed by video compression. Just go get the demo and check it out.*
+
+Dust motes don't need to be dust. Falling leaves, butterflies, insects, dust lit by volumetric rays of light, particle effects like impact sparks or motion trails, or even just an "unnatural" floating grid, objects floating about within arms reach (*see: I expect you to die*), 
 
 ### Object Motion
 Consider parallax to be the motion of the camera/head, or consistently moving things that provide a sense of scale. **Object Motion** refers to the motion of objects. Big things move and accelerate slowly. Small and lightweight things dart around. A big door lumbers open and a floppy wooden saloon door flies open and swings/oscillates a bit before settling back into it's closed position.
@@ -131,7 +157,10 @@ In my opinion, not giving the user relative/familiar size comparisons is one of 
 This image of [Greg](https://www.gregstokinger.com/) was captured on the roof of a building in Pittsburgh. There is almost nothing to disconnect the foreground - greg - with the background. Just a small amount of blur and texture/detail level. Greg looks like he is the size of these buildings! Luckily our sense of relative sizes - and that small amount of blur - keep us from falling to a "forced perspective" illusion.
 ![An image of a man on a rooftop, overlooking Pittsburgh](images/giantGreg.png)
 
-### Occlusion/Interpolation
+### Occlusion and Interpolation
+If something is in front of (and closer) than something else, it will visibly block (or "occlude") that something else. Thus: Establishing relative positions. 
+
+
 
 ### Shadows and Lighting
 
@@ -209,6 +238,36 @@ In VR design, a little bit of fog can go a long way.
 
 ## Examples Of Presenting Depth
 
+### Moss
+<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/GeneralQuarrelsomeBream' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+Moss uses a variety of depth cues.
+
+Familiar Objects helps and hurts us. Large mushrooms, trees, rocks, and so on help bring us down to the small "diarama" mouse-scale of the world, but many of these familiar reference cues are ambiguous, and the scale could easily be lost. As a 3D platformer, an incorrect understanding - even by a small amount - will lead to the player missing jumps or falling off of ledges, to their frustration.
+
+It's a VR Experience, so it get's a lot: Stereoscopy, perspective rendering, and more.
+
+The first thing to note is the scale. It's a third person game, but why play at such a small scale? The scale has a number of advantages, notably motion parallax. Small movements of the players head provide a *lot* of depth information. There are a number of cues that decrease in effectiveness with distance, like sterescopy. The scale puts the world at a very comfortable distance, a sort of perceptive sweet-spot, with easily understood environments. 
+
+> 3rd person VR Games are often compared to playing tabletop games. But Moss is significantly larger than a tabletop board game. Consider how **Tabletop Simulator** suffers as it asks for too much precision from the player, and for them to look downward constantly - harder while wearing a headset than when normally playing a tabletop game). Try this experiment: Go into Google Earth VR, find an interesting location, and mess about with the scale until it's just feels comfortable. How large did you make this environment? 
+
+Interestingly enough, lighting/shading is not really used to establish space or scale. Ignoring the deep background, Moss has an aggressive use of highly unrealistic lighting that paint playable areas bright and non-playable areas in deep shadow. Notice how the large rock on the right is lit from *below* in the  above clip. It makes *no sense* in this situation, but entirely serves gameplay. That said, the strong and directional lighting provides some additional shape information and texture detail to the environment - the difference between the *top* and the *side* of a ledge is always quite clear, even for curved platforming elements like logs/branches.
+
+Dust Motes (sometimes mystical particle effects) establish and enforce the small scale.
+
+> *Ed Note: Many recordings of gameplay found online are recorded with lower graphics quality settings that limit fog and particle effects, and the wonderful dust motes are invisible.*
+
+A thick fog clearly separates the background, and gives it depth. The background also contains "human" sized elements like massive trees, which help re-enforce the small scale of the world in front of us. This is important: in order for the the world in front of us to feel small, we need things around it to be large. Without these background elements, the scale of the experience would be hampered and it would feel less magical.
+
+Occlusion is very important to Moss. It uses occlusion bluntly and subtly. Bluntly, it directly puts large elements in the way, which forces the player to move their head and look around in order to see the rest of the level - and thus giving them additional perspectives, motion parallax, and more to help them understand the space. When the mouse is occluded, there's a world-breaking x-ray effect that I personally dislike but accept.
+
+The second kind of occlusion is more important. Smaller, minor elements occasionally obtrude the character and level. Leaves, grass, protrusions of rock, and other elements *just barely* get in the way. Without blocking sight to the character, they are a significant element to why the platforming works well. When the mouse runs through some leaves, their position in space is precisely knowable, without thought. One can compare the forrest levels of Moss to the castle levels, which have far less of these minor occluding elements - and a much less diverse visual environment - the difficulty of platforming increases in a frustrating way. There's less depth information to work with.
+
+![A promotional image for Moss that shows various leaves that can occlude the character.](images/moss2.jpg)
+*A promotional image for Moss that shows various leaves that can occlude the character.*
+
+The best Moss levels combine interesting dynamic geometry (they aren't visibly on a grid) with enough cues, particles, and so on to make up for the lack of clear perspective lines and player confidence that such a grid provides. Some of the interior Moss levels become more "2 dimensional" and suffer for it. That said, Moss rarely goes *too* far with it's dimensionality - you almost never have to move behind or around other paths, and little is obscured from vision. While moving ones head around is certainly required for gameplay, Moss is basically playable from a single perspective - an important consolation that improves comfort and accessability.
+
 ### River City Girls
 
 [Beat-Em Up](https://en.wikipedia.org/wiki/Beat_%27em_up) games often mix perspective tricks with orthographic projection, presenting 3D worlds on a 2D screen, with 2D movement. The tricks they use to accomplish this are an interesting study. Lets consider *River City Girls*.
@@ -234,6 +293,27 @@ The game simplifies the world to and projection in ways that defy both perspecti
 Consider if the scene were drawn consistently, the background all in the same perspective like that of the dumpster, moving left to right as it gets further away from the camera. If the environment had consistent perspective signals, then the character movement *would* feel incorrect. Instead, the incongruent background *helps* the movement feel appropriate by obfuscating the relationship between horizontal position and depth to the point where we disregard it.
 
 As a designer, it can be impossible to do things "accurately". Even in VR. We must be aware of what we can provide that present clarity to ambiguous visual clues and "override" or muddle-up conflicting ones. 
+
+### Cubism (demo)
+[Animated Gif of Cubism taken from developer store page](images/cubism3.gif)
+*Press Gif from developer webpage.*
+
+*Cubism* is a minimalist VR puzzle game, like a 3D Tanagram puzzle. By "Minimalist", it means "has basically no environment whatsoever". So how can a game that removes *almost everything* present depth and space to the user?
+
+[Screenshot of Cubism Demo](images/cubism.jpg)
+
+The first is by understanding VR's strengths, and keeping the scale close and tight. This allows motion parallax, stereoscopy, and perspective changes from head movement to be the primary indicator of depth.
+
+Significantly, the game includes a **ground plane**. Implied merely through the blocks shadows from some distant light source, this extremely minimal ground plane and shadow information does a remarkably impressive job providing a *sense* of spatial understanding. Frankly, it probably does more in providing comfort than actual depth cues, but that comfort is important.
+
+The game also provides minor extra perspective information: grid-dots on the shape and a transparent reference plane below it. The cubes that we manipulate are lit brightly, with shadow information that is telling of their orientation and shape. When we select an object, our hand-pointers intersect and become partially occluded (and the object is outlined).
+
+[Cubism Selection](images/cubism2.jpg)
+*The cursor becomes partially occluded by the block when it is intersecting it.*
+
+This approach is still lacking in a number of ways. There is just so *little* to work with. Notably, the interactions are challenging by being all within arms reach, and it can be annoying to twist one's hand about to re-orient shapes. Spatially, I would have liked to see the grid-dots extend (faded, perhaps) outside of the shape and towards our periphery. Lastly, and potentially harming the aggressively minimal aesthetic, one could place couch-sized blocks on the ground in the distance to provide a stable reference for orientation and scale. (I would experiment with piling up completed levels to also give a sense of accomplishment and progress).
+
+> *Ed note: The demo is free on [steam](https://store.steampowered.com/app/804530/Cubism/) right now. What do you think?*
 
 ### Animal Crossing: New Horizons
 
@@ -272,3 +352,7 @@ The effect can also be reinforced when combined with time-lapse or sped-up video
 - [Accommodation-Convergence Reflex](https://en.wikipedia.org/wiki/Accommodation_reflex)
 - [GDC Talk on The Art of Firewatch](https://www.youtube.com/watch?v=SdxQ3HlhTE8)
 - Hitchcock Zoom
+- [Motion-Induced Blindness](https://en.wikipedia.org/wiki/Motion-induced_blindness)
+- [Ponzo Illusion](https://en.wikipedia.org/wiki/Ponzo_illusion)
+- [Eppinghaus Illusion](https://en.wikipedia.org/wiki/Ebbinghaus_illusion)
+- [Psychological influences on distance estimation in a virtual reality environment](https://www.frontiersin.org/articles/10.3389/fnhum.2013.00580/full)
