@@ -83,6 +83,11 @@ The below image is off-putting because it showcases two perspectives - one on th
 This image is an equirectangular projection of a 360 image captured from the center of a radially symmetric room. Everything is the same distance away, so it's all the same size. 
 ![Radial Perspective](images/radialProjection.jpg).
 
+#### The Ground Plane
+One element of strong linear present that is almost constant in our vision is a ground plane. Despite the environment you are in, you almost always *see* a clear ground plane in your periphery. It's an element of linear perspective that is particularly powerful and useful for VR developers.
+
+If you don't have a reason not to, you should include a ground plane at a reasonable distance. Of course there are many reasons not to, this is VR, do something magical!
+
 
 ### Perspective Distortion
 "Perspective Distortion" is ... perspective. Things get bigger as they get closer to the viewer. Things that are further away are smaller. That's all perspective distortion is.
@@ -109,17 +114,21 @@ Consider how when you look at something far away, you squint, you crane your nec
 Many 2D Games imply depth through motion parallax. In the three below examples (from Rayman and Sonic) notice the different background planes, and why some are more convincing or "look better" than others.
 
 ![Rayman with a single background plane](images/rayman.gif)
+
 *Rayman has a single background plane that provides an unconvincing illusion of depth. Other levels of the original Rayman uses multiple planes for a more convincing illusion.*
 
 ![Rayman with multiple background planes](images/rayman2.gif)
+
 *Notice how elements across multiple background planes (at different apparent distances) do an incredible amount of work in creating an illusion of depth, compared to a single plane. Even with such a low level of "realism", there is an incredible presentation of space and depth*
 
 ![Sonic The Hedgehog uses a Parallax effect](images/sonic2.gif)
+
 *The background parallax elements in Sonic The Hedgehog move vertically as well as horizontally.*
 
 Even incredibly complex scenes of hundreds of thousands of otherwise similar points can "click" into an understanding in mere moments. 
 
 ![Agisoft Metashape](images/pointCloud2.gif)
+
 *Correctly selecting and editing points in the 3D scanning software Metashape is challenging. One must constantly pan and rotate the view in order to make sense of the point cloud. Mis-selections and incorrect assumptions are frequent. Effective work in the software requires constant double checking and re-evaluating what one is "really" looking at, primarily acquiring this information via motion parallax.*
 
 Motion parallax is an incredibly strong depth cue, and one of the largest advantages that VR can bring to the table. No longer needing large fast moving characters in 3D worlds, VR Developers have the freedom to slow down the "camera" and let small subtle motions provide the information, even from our periphery and while standing nearly still.
@@ -196,9 +205,21 @@ Lastly, consider grass. Or more generally, lots of small objects that slightly o
 See the breakdown on Moss below for an excellent use of occlusion.
 
 ### Shadows and Lighting
-*wip*
+Lighting is an indirect depth cue. It provides a plethora of information about the shape of an object, and relative positions of objects. When applied to an entire environment, it can clue us into the shape of that environment. What walls are at what angles, what elements are near other elements, and so on and so forth.
+
+> If your scene isn't selling itself well, or something just feels *off*, *missing*, or *flat*, try adding more in-scene lights. Spotlights and diegetic elements that provide highlights and shadows around the environment. Visually, "ambient" light often used in game engines is generally designed to be quite flat, and does much less to help communicate the shape of elements than more "extreme" lights that are closer to objects.
+
+There is much more to be said about lighting, both on a [technical](https://impr.hdyar.com/guides/lightingInUnity.html) and creative level.
+
 ### Textures and Detail Level
-*wip*
+Very similar to blur, we are able to perceive more detail and sharpness in objects that are closer than objects that are further away for a variety of reasons including atmospheric gradation and focus.
+
+This is used to help parse photographs as three dimensional, and one of the ways we can tell when in image is manipulated (photoshopped) is when texture/detail levels don't match with our expectations. 
+
+As VR developers this doesn't affect us too much practically. That said, we do need to pay attention to the detail level of various objects - texture resolution, for example - and try to keep things consistent for objects of the same sizes and distances.
+
+> It is worth mentioning that while we likely won't be manipulating this to make things *feel* or *appear* further away, we may use level-of-detail (LOD) systems to put less rendering effort (detail) into further away elements for computational reasons.
+
 ### Size of Similar Objects
 The same cue as perspective distortion/linear perspective and familiar size, taken together. I want to draw emphasis on objects that may not be of a *known* size, but of some size that we establish *within the environment*. By repeating this same object around the environment, size becomes an indicator of depth.
 
@@ -407,3 +428,4 @@ The effect can also be reinforced when combined with time-lapse or sped-up video
 - [Ponzo Illusion](https://en.wikipedia.org/wiki/Ponzo_illusion)
 - [Eppinghaus Illusion](https://en.wikipedia.org/wiki/Ebbinghaus_illusion)
 - [Psychological influences on distance estimation in a virtual reality environment](https://www.frontiersin.org/articles/10.3389/fnhum.2013.00580/full)
+- [Troxler's Fading](https://en.wikipedia.org/wiki/Troxler%27s_fading)

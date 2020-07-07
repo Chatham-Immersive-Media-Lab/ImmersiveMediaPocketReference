@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Lighting In Unity Overview
-permalink: /guides/lightingInUnityOverview.html
+permalink: /guides/lightingInUnity.html
 aside:
   toc: true
 sidebar:
