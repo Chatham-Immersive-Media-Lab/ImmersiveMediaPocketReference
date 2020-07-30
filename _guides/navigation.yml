@@ -77,8 +77,8 @@ guides:
         url: /guides/troubleshooting.html
       - title: Zero To Quest
         url: /guides/zeroToQuest.html
-      - title: Lighting In Unity Overview
-        url: /guides/lightingInUnityOverview.html
+      - title: Lighting In Unity
+        url: /guides/lightingInUnity.html
 
 notes:
   - title: Perceiving Space
