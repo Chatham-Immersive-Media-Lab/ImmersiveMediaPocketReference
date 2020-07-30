@@ -65,8 +65,6 @@ guides:
     children:
     - title: Image To Materials Overview
       url: /guides/imageToMaterialOverview.html
-    - title: Lighting In Unity Overview
-      url: /guides/lightingInUnityOverview.html
   - title: Audio
     children:
       - title: Recording A Voice-Over in Audacity
