@@ -70,7 +70,7 @@ guides:
   - title: Audio
     children:
       - title: Recording A Voice-Over in Audacity
-      - url: /guides/recordingAVoiceOver.html
+        url: /guides/recordingAVoiceOver.html
   - title: Unity
     children:
       - title: Troubleshooting
