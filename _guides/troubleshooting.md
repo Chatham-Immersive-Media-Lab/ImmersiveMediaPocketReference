@@ -16,6 +16,7 @@ I can't enter Play mode. | Open the console (window > Console). Hit "clear" in t
 Strange error messages I don't understand in the console | Hit 'clear' in the console. Any that don't go away are compiler errors and need to be fixed. Sometimes Unity will hit a bug, spit out an error, but keep trucking, or try again and things work the second time. It's cool like that. 
 
 ## Interface Seems Broken...
+
 Problem | Solution
 --- | ---
 Can't rotate camera in scene view | Check that 2D mode is turned off. ![2DViewMode.png](images/2DViewMode.png)
@@ -27,6 +28,7 @@ I've lose a window and can't get it back. | open new windows back up under the h
 When i hit play, the Unity UI does/doesn't get tinted a weird color? | edit>preferences>colors> Playmode Tint. Choose something that will remind you "i'm in playmode and my property changes wont get saved" but also not completely black
 
 ## Lighting is weird...
+
 Problem | Solution
 --- | ---
 The scene view doesn't look like the game view | Check the "Scene Lighting" toggle. ![SceneLightingToggle](images/SceneLightingToggle.png)
@@ -35,6 +37,7 @@ My model doesn't have any color | You may need to recreate a material, assign it
 My model doesn't have any color | If your model has vertex colors, Unity's built- in default material shader won't render then. You need a vertex color shader. If you import the "[Polybrush](https://unity3d.com/unity/features/worldbuilding/polybrush)" package, it will include some shaders that support vertex colors.
 
 ## Unity is really hard and annoying to use
+
 Problem | Solution
 --- | ---
 It's very difficult positioning objects correctly in 3D space | Top right, try the "4-split" layout. Focus on moving objects one axis at a time, and check your rotation constantly. After creating an object, check it's position first (zero'd out, or like, in the middle of nowhere?).
