@@ -65,18 +65,18 @@ guides:
     children:
     - title: Image To Materials Overview
       url: /guides/imageToMaterialOverview.html
-    - title: Lighting In Unity Overview
-      url: /guides/lightingInUnityOverview.html
   - title: Audio
     children:
       - title: Recording A Voice-Over in Audacity
-      - url: /guides/recordingAVoiceOver.html
+        url: /guides/recordingAVoiceOver.html
   - title: Unity
     children:
       - title: Zero To Quest
         url: /guides/zeroToQuest.html
-      - title: Lighting In Unity Overview
-        url: /guides/lightingInUnityOverview.html
+      - title: Lighting In Unity
+        url: /guides/lightingInUnity.html
+      - title: Troubleshooting Unity
+        url: /guides/troubleshooting.html
 
 notes:
   - title: Perceiving Space
