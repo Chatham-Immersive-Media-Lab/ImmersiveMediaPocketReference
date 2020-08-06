@@ -20,6 +20,7 @@ The game won't enter Play mode | First, it sometimes takes a few seconds to ente
 
 Problem | Solution
 --- | ---
+Objects clip in scene view and/or the scroll wheel scrolls in two far forward/backward | Select an object at the scale/location you want to observe, and with the mouse hovering over the scene view, press "f" to focus on the object. It moves the camera to look at that object (without rotating the camera), and resets the scene view navigation clipping distance and zoom amount.
 Can't rotate camera in scene view | Check that 2D mode is turned off. ![2DViewMode.png](images/2DViewMode.png)
 Cant rotate camera in scene view | Check the Perspective/Orthographic (**iso**metric) toggle below scene gizmo. ![isoPerpToggle.gif](images/isoPerpToggle.gif)
 Everything looks kind of dark and has a brownish color in the scene view. ![No Baked Lighting](images/noLightingBaked.png) | Turn on auto-generate lighting. Double click on "Auto Generate Lighting" to quickly open the lighting settings window. ![Yes Baked Lighting](images/yesLightingBaked.png)
