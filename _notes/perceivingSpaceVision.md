@@ -13,8 +13,6 @@ Optical illusions are results of disagreements between separate information piec
 
 We must understand many of the tools and tricks that our brains use to correctly perceive space in order to better present space. 
 
-## Vocabulary
-*wip*
 ## We See Depth
 Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time. How far away is that thing? How large is it?
 
@@ -352,15 +350,15 @@ The two major depth cues in this game are occlusion, which is obvious. The secon
 
 The use of vertical position as depth a blatant defiance of perspective. Specifically, the very perspective that the game's own background and scenery are illustrated in.
 
-In the gameplay, the vertical position is the *only* element that effects depth. As you "further and closer" you move straight up and down. But consider the perspective presented by the background scenery. We can see the sides of many objects. It's.... wrong! But the objects are presented at such a steep projection, they do enforce vertical position as being related to depth far more than they enforce horizontal position being related to depth.
+In the gameplay, the vertical position is the *only* element that effects depth. As you move "further and closer" you move straight up and down. But consider the perspective presented by the background scenery. We can see the sides of many objects. It's.... wrong! But the objects are presented at such a steep projection, they do enforce vertical position as being related to depth far more than they enforce horizontal position being related to depth.
 
 In the below screenshot, the dumpster and the truck are angled opposite to each other, implying a vanishing point that is impossible with an orthographic projection - things don't get smaller when they get further away. The objects are in conflict, but only in conflict in how they treat horizontal position/depth. They both enforce a vertical position to depth relationship the same way. 
 
-We are left with confused or conflicting understanding of hor horizontal position relates to depth, and we casually disregard this confusion, while all objects in the scene enforce - with their own perspectives - the same relationship that attributes vertical position to depth.
+We are left with confused or conflicting understanding of how horizontal position relates to depth, and we casually disregard this confusion. All objects in the scene enforce - with their own perspectives - the same relationship between vertical position to depth.
 
 ![Screenshot from River City Girls](images/riverCity1.jpg)
 
-The game simplifies the world to and projection in ways that defy both perspective and orthographic projections, but it works. Everything reinforces the assumption of vertical position being related to distance. The system breaks when we have characters jump and when characters are different heights. The drop-shadow is present to provide a positional cue that relieves these ambiguities.
+The game simplifies the world and projection in ways that defy both perspective and orthographic projections, but it works. Everything reinforces the connection between vertical position and distance. The system breaks when we have characters jump and when characters are different heights. The drop-shadow is present to provide a positional cue that relieves these ambiguities.
 
 Consider if the scene were drawn consistently, the background all in the same perspective like that of the dumpster, moving left to right as it gets further away from the camera. If the environment had consistent perspective signals, then the character movement *would* feel incorrect. Instead, the incongruent background *helps* the movement feel appropriate by obfuscating the relationship between horizontal position and depth to the point where we disregard it.
 
@@ -368,6 +366,7 @@ As a designer, it can be impossible to do things "accurately". Even in VR. We mu
 
 ### Cubism (demo)
 ![Animated Gif of Cubism taken from developer store page](images/cubism3.gif)
+
 *Press Gif from developer webpage.*
 
 *Cubism* is a minimalist VR puzzle game, like a 3D Tanagram puzzle. By "Minimalist", it means "has basically no environment whatsoever." So how can a game that removes *almost everything* present depth and space to the user?

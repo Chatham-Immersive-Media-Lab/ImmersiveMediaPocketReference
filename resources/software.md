@@ -136,6 +136,8 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [GIMP](https://www.gimp.org/) - Free, Open source
 
+- [Glimpse](https://glimpse-editor.github.io) - Fork of GIMP with better UI
+
 - [Paint.NET](https://www.getpaint.net/) - Free, Windows Only
 
 - [Pixelmator](https://www.pixelmator.com/pro/) - Paid, Mac/iPad Only
