@@ -77,6 +77,10 @@ guides:
         url: /guides/lightingInUnity.html
       - title: Troubleshooting Unity
         url: /guides/troubleshooting.html
+  - title: Scripting
+    children:
+      - title: Rider Features & Plugins
+        url:  /guides/riderFeatures.html
 
 notes:
   - title: Perceiving Space
