@@ -77,6 +77,10 @@ guides:
         url: /guides/zeroToQuest.html
       - title: Lighting In Unity
         url: /guides/lightingInUnity.html
+  - title: Scripting
+    children:
+      - title: Rider Features & Plugins
+        url:  /guides/riderFeatures.html
 
 notes:
   - title: Perceiving Space
