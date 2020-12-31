@@ -16,6 +16,14 @@ When it comes to virtual teaching/remote work, resources are collected [here](ht
 
 A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.  
 
+## Backups / File Management
+
+- [Backblaze](https://www.backblaze.com/) - Cloud backups
+
+- [Syncthing](https://syncthing.net/) - Open source folder syncing/backup
+
+- [WinDirStat](https://windirstat.net/) - Disk usage viewer, helpful for cleanup. [Alternatives for mac](https://alternativeto.net/software/windirstat/?platform=mac)
+
 ## Game Engines
 
 - [Unity](https://unity.com/) - Free to use, C#
@@ -192,6 +200,14 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [MeshRoom](https://github.com/alicevision/meshroom) - Free, Open Source
   
+  ## Video Editing
+  
+  - [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html) - Paid, subscription.
+  
+  - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - Free, fully featured. Color grading is particularly top-tier. There's no catch: Blackmagic Design makes money from hardware sales.
+  
+  - [Shotcut](http://www.shotcut.org/) - Free, Open Source. 
+  
   ## Video Utility
 
 - [MpegStreamclip](http://www.squared5.com/svideo/) - Video converter, Free
@@ -250,6 +266,12 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [Best](https://beast.testbit.eu/)
 
+## Screen Capture
+
+- [ShareX](https://getsharex.com/) - Open Source, Capture animated Gifs/movies, OCR
+
+- [LiceCap](https://www.cockos.com/licecap/) - Quick screen portion to gif
+
 ## Note Taking
 
 *I recommend plaintext for digital notes. More generally, any open format that isn't tied to a particular piece of software of workflow. Notes should last forever. Which is longer than software usually lasts.*
@@ -263,7 +285,17 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Workflowy](https://workflowy.com/) - Infinite Hierarchy/nested document structure. Extremely flexible with capable power features. Great for notes, todos, organization, mood boards, and more.
 
 - [Dynalist](https://dynalist.io/) - Workflowly competitor. Better-but-still-not-great support for inline images. Pro version has automatic daily backup.
-  
+
+##  Study Aids (Flash cards)
+
+- [Quizlet](https://quizlet.com/) - Mobile apps/sync, public cards, various learning strategies.
+
+- [Mochi](https://mochi.cards/) - Markdown syntax, Syncing, mobile/web. Clean design.
+
+- [Anchi](https://apps.ankiweb.net/) - A longstanding robust solution with  a variety of features.
+
+- [RemNote](https://www.remnote.io/) - Supports hierarchial and linked structures for taking notes in, and can generate the flash cards from this knowledge base.
+
   ## Text Editors
 
 - [Textreme](https://beast.testbit.eu/) - Distracted plaintext writing

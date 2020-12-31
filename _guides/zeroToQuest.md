@@ -7,15 +7,19 @@ aside:
 sidebar:
   nav: guides
 ---
+
 See videos for in-depth explanation and see below for a checklist refresher.
 
 ## Part 1 - Software Setup
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aRjNTpM06qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Part 2 - Project Setup
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nSeXbIaacmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Quest Setup
+
 1. Make sure your Oculus account has an organization associated with it. Do this at [dashboard.oculus.com](dashboard.oculus.com).
 2. Set your Oculus to Developer Mode. Do this from the Oculus app on your smart device.
    1. Sometimes this may end up getting disabled, so if things are not working, remember to come back and double check this.
@@ -23,33 +27,39 @@ See videos for in-depth explanation and see below for a checklist refresher.
 4. If you are using a link cable, having Quest Link enabled should not affect sending builds to the device.
 
 ## Unity Setup
+
 1. You need to have "Android Build Support" checked (and the drop down boxes for it checked too), under modules (in the drop down menu), for the unity version you are using.
    1. All of this can be found in the install section of the unity hub. You'll figure it out.
 
 ## Project Setup
+
 1. Use the "3D" Template when creating a new project, don't use the High Definition Render Pipeline (HDRP) or Universal Render Pipeline (URP). *For now*.
-1. Under File > Build Settings, switch the target platform to Android.
+2. Under File > Build Settings, switch the target platform to Android.
    1. Now you can "Build" to create a .apk file, or "Build and Run" to create the .apk and install it on a connected device. 
-2. Install the "XR Plugin Management" package. 
-3. Under "XR Plugin Management" in the project settings window (which is now available because this package is installed). 
+3. Install the "XR Plugin Management" package. 
+4. Under "XR Plugin Management" in the project settings window (which is now available because this package is installed). 
    1. You want to add the appropriate loaders. For quest, check the box for the Oculus loader under the android tab.
    2. You may want to enable it under the desktop tab as well for Oculus Link/Rift S support.
-4. I recommend using the XR Interaction Toolkit, which is (at the time of typing), a preview package.
+5. In Edit > Project Settings > Player Settings, change the "Android Minimum API Level" to 23. If you are reading this in the future, the quest may have updated and require a newer oldest supported version.
+6. I recommend using the XR Interaction Toolkit, which is (at the time of typing), a preview package.
    1. In Package Manger, select advanced > Show Preview Packages, and then install the XR Interaction Toolkit. 
    2. This gives you some easy rig creation options under the GameObject > XR menu.
-5. You will likely want to "Seed Legacy Input Bindings" under the Assets menu.
+7. You will likely want to "Seed Legacy Input Bindings" under the Assets menu.
    1. This is part of Legacy Input Helper package, which should be installed by default when you install "XR Plugin Management".
    2. This allows you to easily use the Input.GetAxis(""); and similar functions to get XR controller input data.
 
 ## Notes
-   1. You don't need Unity to install the .apk onto the device. Building the apk and sending it to the device are independent processes. You can install it on the quest with [sidequest](sidequestvr.com) (graphical software) or [Android Developer Bridge](https://developer.android.com/studio/command-line/adb), command line tools.
 
+1. You don't need Unity to install the .apk onto the device. Building the apk and sending it to the device are independent processes. You can install it on the quest with [sidequest](sidequestvr.com) (graphical software) or [Android Developer Bridge](https://developer.android.com/studio/command-line/adb), command line tools.
 
 ---
 
 ## Using The Oculus Integration
 
 If you want to use Hand Tracking, which is not currently supported with the above technique, you will need to use the "old" way of doing things. While out of date for Unity, Oculus has been updating their software integration for it.
+
+
+Note, the following advice has been last tested for 2018.
 
 1. The Quest and Unity setup is the same. 
 2. Switch To Android Build Target before importing the oculus integration to save some time. (File> Build Settings).
