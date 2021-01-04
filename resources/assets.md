@@ -35,6 +35,7 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [Sketchfab](https://sketchfab.com)
 
 ## Model Collections
+
 - [Scottish Maritime Museum](https://www.scottishmaritimemuseum.org/3d-collections/)
 - [CC0 Cultural Heritage Collection](https://sketchfab.com/nebulousflynn/collections/cc0)
 - [https://sketchfab.com/artfletch](https://sketchfab.com/artfletch)
@@ -43,7 +44,6 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [CC0 Cleveland Museum of Art](https://sketchfab.com/clevelandart/collections/cma-cc0-objects)
 - [The Hallwyl Museum](https://sketchfab.com/TheHallwylMuseum)
 
-
 ## Textures
 
 - [Textures.com](https://www.textures.com/)
@@ -51,6 +51,7 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [3DXO](https://www.3dxo.com/textures)*
 - [3DTextures.me](https://3dtextures.me/)*
 - [Texturer](http://texturer.com/)*
+- [IES Library](https://ieslibrary.com) - (Light shape profiles from real-world lights) 
 - ## Sound Effects
 - [BBC Sound Effects](http://bbcsfx.acropolis.org.uk/)
 - [FreeSFX](https://www.freesfx.co.uk/)*
