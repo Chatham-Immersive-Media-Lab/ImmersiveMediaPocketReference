@@ -65,6 +65,8 @@ guides:
     children:
     - title: Image To Materials Overview
       url: /guides/imageToMaterialOverview.html
+    - title: Creating a Seamless Texture
+      url: guides/seamlessTexture.html
   - title: Audio
     children:
       - title: Recording A Voice-Over in Audacity
