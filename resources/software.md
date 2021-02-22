@@ -276,9 +276,9 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 *I recommend plaintext for digital notes. More generally, any open format that isn't tied to a particular piece of software of workflow. Notes should last forever. Which is longer than software usually lasts.*
 
-- [Obsidian](https://obsidian.md/features) - Notes in plaintext and markdown formatting. Notable support of backlinks and a graph view of linked notes, custom themes, voice memos, daily notes/templates, and keyboard only support. 
+- [Obsidian](https://obsidian.md/features) - Notes in plaintext and markdown formatting. Notable support of backlinks and a graph view of linked notes, custom themes, voice memos, daily notes/templates, and keyboard only support. Sync thrugh git plugin or paid upgrade (not released yet at time of writing).
 
-- [Simplenote](https://simplenote.com/) - Simple plaintext/markdwown notes with universal platform support and very competent syncing and backups.
+- [Simplenote](https://simplenote.com/) - Simple plaintext/markdwown notes with universal platform support and very competent syncing and backups. Great simple upgrade to a phones notes app.
 
 - [Standard Notes](https://standardnotes.org/) - Free, Open source, encrypted plaintext notes with syncing.
 
@@ -286,7 +286,9 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [Dynalist](https://dynalist.io/) - Workflowly competitor. Better-but-still-not-great support for inline images. Pro version has automatic daily backup.
 
-##  Study Aids (Flash cards)
+- [Joplin](https://joplinapp.org/) - Free, Open Source, cloud sync through dropbox or oneDrive. Well supported API and means wide compatibility for import/export and app optind.
+
+## Study Aids (Flash cards)
 
 - [Quizlet](https://quizlet.com/) - Mobile apps/sync, public cards, various learning strategies.
 
@@ -295,7 +297,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Anchi](https://apps.ankiweb.net/) - A longstanding robust solution with  a variety of features.
 
 - [RemNote](https://www.remnote.io/) - Supports hierarchial and linked structures for taking notes in, and can generate the flash cards from this knowledge base.
-
+  
   ## Text Editors
 
 - [Textreme](https://beast.testbit.eu/) - Distracted plaintext writing
